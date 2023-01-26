@@ -1,0 +1,48 @@
+mat-sidenav-container,
+mat-sidenav-content,
+mat-sidenav {
+  height: 100%;
+}
+
+main {
+  // padding: 10px;
+  // max-width: 1200px;
+  margin: auto;
+  min-height: calc(100% - 104px); // Header 50px, footer 34px, top nav 30px
+  padding: 0;
+}
+.auto-height {
+  min-height: 100%;
+  height: auto;
+}
+.home {
+  min-height: calc(100% - 124px);
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  z-index: 99999999999;
+  button {
+    box-shadow: 0 2px 1px -1px white, 0 1px 1px 0 white, 0 1px 3px 0 white;
+    background-color: rgba($color: #000000, $alpha: 1);
+    color: white;
+    div,
+    span {
+      color: white;
+    }
+    width: 35px;
+    height: 35px;
+
+    .material-symbols-outlined {
+      margin-top: -8px;
+    }
+  }
+}
+.show-scrollTop {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}

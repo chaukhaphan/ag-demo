@@ -1,0 +1,10 @@
+{
+  "/TTInteractiveServices/api/*": {
+    "target": "http://localhost",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/TTInteractiveServices/api": "http://localhost/TTInteractiveServices/api"
+    }
+  }
+}

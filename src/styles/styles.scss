@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./fonts";
+@import "ag-grid-community/dist/styles/ag-grid.min.css";
+@import "ag-grid-community/dist/styles/ag-theme-alpine.min.css";
+@import "~flatpickr/dist/flatpickr.min.css";
+@import "./ag-theme-alpine.scss";
+@import "./material.scss";
+@import "./default.scss";
+// @import "~@ng-select/ng-select/themes/material.theme.css";
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import "tippy.js/dist/tippy.css";
+@import "slick-carousel/slick/slick.scss";
+@import "slick-carousel/slick/slick-theme.scss";
+@import "@angular/material/prebuilt-themes/indigo-pink.css";

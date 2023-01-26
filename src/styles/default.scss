@@ -1,0 +1,641 @@
+@import "./variables";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body,
+div,
+span {
+  font-family: $font-regular;
+  color: $text-color-light;
+}
+
+button[primary] {
+  background-color: $text-color-light !important;
+  span,
+  div {
+    color: $text-color-white !important;
+  }
+
+  &.mat-button-disabled {
+    background-color: $text-color-lighter !important;
+    span,
+    div {
+      color: $text-color-light !important;
+    }
+  }
+}
+
+button[link] {
+  span,
+  div {
+    color: $text-color-link;
+  }
+}
+
+button[link2] {
+  span,
+  div {
+    color: $text-color-link;
+    &:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+  }
+  height: 16px;
+  line-height: 16px;
+  padding: 0;
+  &:hover:not(.mat-button-disabled) .mat-button-focus-overlay {
+    opacity: 0 !important;
+  }
+}
+
+.tippy-tooltip-with-icon {
+  height: 24px !important;
+  width: 24px !important;
+  position: absolute !important;
+  top: -24px;
+  right: 0;
+  .mat-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 22px;
+  }
+}
+
+button:focus {
+  outline: auto;
+}
+
+button {
+  width: max-content;
+  height: 35px;
+  line-height: 35px;
+  font-family: $font-regular;
+  background-color: $text-color-white;
+  border: 1px solid $text-color-light;
+  span,
+  div {
+    color: $text-color-dark;
+  }
+}
+
+a {
+  color: $text-color-link;
+  font-family: $font-regular;
+}
+
+.h1,
+h1 {
+  font-weight: 600 !important;
+  font-size: 56px !important;
+  line-height: 56px !important;
+}
+
+.h2,
+h2 {
+  font-weight: 400 !important;
+  font-size: 36px !important;
+  @media screen and (max-width: 768px) {
+    font-size: 25px !important;
+  }
+  line-height: 36px !important;
+  letter-spacing: 1.08px !important;
+  margin-bottom: 20px !important;
+}
+
+.h3,
+h3 {
+  font-weight: 700 !important;
+  font-size: 23px !important;
+  line-height: 23px !important;
+  letter-spacing: 0.69px !important;
+  color: #004fa3 !important;
+}
+.p,
+p {
+  font-size: 16px;
+  @media screen and (max-width: 540px) {
+    font-size: 14px;
+  }
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.custom-container {
+  max-width: $desktop-max-width;
+  margin: auto;
+  @media screen and (max-width: $desktop-max-width) {
+    margin: 0 10px !important;
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      padding: 0 !important;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+      padding: 0 !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 5px !important;
+  }
+}
+
+.row {
+  @media screen and (max-width: $desktop-max-width) {
+    margin: 0;
+  }
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    padding: 0 5px;
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    padding: 0 5px;
+  }
+}
+
+.table {
+  th,
+  td {
+    border: 0;
+    padding: 0;
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+/*Change text in autofill textbox*/
+input {
+  color: $text-color-dark;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset !important;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+// INPUT FORM FIELD
+// Required when invalid
+input[required] + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: #cc3300;
+  }
+}
+
+.value-required {
+  .mat-form-field-label {
+    color: #cc3300 !important;
+  }
+}
+
+textarea[required] + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: #cc3300;
+  }
+}
+
+mat-select[required] + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: #cc3300;
+  }
+}
+
+input[required] + mat-select + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: #cc3300;
+  }
+}
+
+// make labels black when field controll is valid
+input[aria-invalid="false"] + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: black;
+  }
+}
+
+input[aria-invalid="false"] + mat-select + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: black;
+  }
+}
+
+textarea[aria-invalid="false"] + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: black;
+  }
+}
+
+mat-select[aria-invalid="false"] + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: black;
+  }
+}
+
+mat-select[aria-invalid="false"] + .form-field__with-tooltip-icon {
+  .material-symbols-outlined {
+    color: black !important;
+  }
+}
+
+mat-select.ng-invalid + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: #cc3300 !important;
+  }
+}
+
+mat-select.ng-invalid + .form-field__with-tooltip-icon + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: #cc3300 !important;
+  }
+}
+
+// // Require when valid
+// input[required].ng-valid + .mat-form-field-label-wrapper {
+//   .mat-form-field-label {
+//     color: black;
+//   }
+// }
+
+// input[disabled] + .mat-form-field-label-wrapper {
+//   .mat-form-field-label {
+//     color: black;
+//   }
+// }
+
+// textarea[required].ng-valid + .mat-form-field-label-wrapper {
+//   .mat-form-field-label {
+//     color: black;
+//   }
+// }
+
+// mat-select[required].ng-valid + .mat-form-field-label-wrapper {
+//   .mat-form-field-label {
+//     color: black;
+//   }
+// }
+
+input[required].ng-valid + input + .mat-form-field-label-wrapper {
+  .mat-form-field-label {
+    color: black;
+  }
+}
+// input[required][aria-invalid="false"] + .mat-form-field-label-wrapper {
+//   .mat-form-field-label {
+//     color: black;
+//   }
+// }
+
+// Custom date
+/* Use display: grid so we can position the range menu to the left of the existing calendar elements */
+.flatpickr-calendar.open.flatpickr-has-predefined-ranges {
+  width: auto;
+  min-width: max-content;
+  display: grid;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+.custom-date-filter .input-button {
+  display: flex;
+  text-align: center;
+  right: 5px !important;
+  .material-symbols-outlined {
+    font-size: 20px;
+  }
+}
+
+.flatpickr-input {
+  padding-right: 25px;
+}
+.flatpickr-input + .form-control.input {
+  height: 24px;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges .flatpickr-predefined-ranges {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges:not(.flatpickr-predefined-ranges-only)
+  .flatpickr-predefined-ranges {
+  border-right: 1px solid #e6e6e6;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges .flatpickr-months {
+  position: relative; /* needed for prev/next month arrows to position correctly */
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges .flatpickr-innerContainer {
+  overflow: visible;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* hide the calendar when .flatpickr-predefined-ranges-only is added to the container */
+.flatpickr-calendar.flatpickr-has-predefined-ranges.flatpickr-predefined-ranges-only .flatpickr-months {
+  display: none;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges.flatpickr-predefined-ranges-only .flatpickr-innerContainer {
+  display: none;
+}
+
+/* style the button nav items to match the calendar */
+.flatpickr-calendar.flatpickr-has-predefined-ranges .flatpickr-predefined-ranges .nav-link.btn-link {
+  padding: 0.25rem 0.75rem;
+  color: inherit;
+  border-radius: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges .flatpickr-predefined-ranges .nav-link.btn-link.active {
+  background: #569ff7;
+  color: #fff;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges .flatpickr-predefined-ranges .nav-link.btn-link:hover:not(.active) {
+  background: #eee;
+}
+
+/* needed so the hover/active background on the buttons don't overlap the container's border radius */
+.flatpickr-calendar.flatpickr-has-predefined-ranges .flatpickr-predefined-ranges :first-child .nav-link.btn-link {
+  border-radius: 5px 0 0 0;
+  width: 100%;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges .flatpickr-predefined-ranges :last-child .nav-link.btn-link {
+  margin-bottom: 0.5rem;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges.flatpickr-predefined-ranges-only
+  .flatpickr-predefined-ranges
+  :first-child
+  .nav-link.btn-link {
+  border-radius: 5px 5px 0 0;
+}
+
+.flatpickr-calendar.flatpickr-has-predefined-ranges.flatpickr-predefined-ranges-only
+  .flatpickr-predefined-ranges
+  :last-child
+  .nav-link.btn-link {
+  margin-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.label-value {
+  display: flex;
+  // align-items: center;
+  & > div:first-child,
+  & > span:first-child {
+    min-width: 140px;
+    max-width: 140px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: end;
+    line-height: 20px;
+    font-size: 14px;
+    color: $text-color-dark;
+    div,
+    span {
+      color: $text-color-dark;
+    }
+    font-family: $font-bold;
+  }
+  & > div:last-child,
+  & > span:last-child {
+    font-size: 14px;
+    align-items: center;
+    line-height: 20px;
+    color: $text-color-dark;
+    div,
+    span {
+      color: $text-color-dark;
+    }
+  }
+}
+
+// No align center
+.label-value-2 {
+  display: flex;
+  & > div:first-child,
+  & > span:first-child {
+    min-width: 140px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: end;
+    line-height: 20px;
+    @media screen and (max-width: 1200px) {
+      line-height: 16px;
+      margin-right: 10px;
+    }
+    font-family: $font-bold;
+    color: $text-color-dark;
+  }
+  & > div:last-child,
+  & > span:last-child {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: $text-color-dark;
+  }
+}
+
+.label {
+  min-width: 140px;
+  display: inline-block;
+  margin-right: 15px;
+  text-align: end;
+  line-height: 20px;
+  font-family: $font-bold;
+  color: $text-color-dark;
+}
+.value {
+  font-size: 13px;
+  display: inline-table;
+  color: $text-color-dark;
+}
+
+// GLOW
+.glow {
+  .mat-form-field-outline {
+    -webkit-animation: glow 1.5s infinite;
+    animation: glow 1.5s infinite;
+  }
+}
+
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 2px #f1f6ff;
+  }
+
+  50% {
+    box-shadow: 0 0 4px #ff0d00;
+  }
+
+  to {
+    box-shadow: 0 0 2px #f1f6ff;
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 2px #f1f6ff;
+  }
+
+  50% {
+    box-shadow: 0 0 4px #ff0d00;
+  }
+
+  to {
+    box-shadow: 0 0 2px #f1f6ff;
+  }
+}
+
+// tooltip tipppy
+.tippy-box[data-theme="error"] {
+  background-color: #cc3300;
+  .label-value {
+    div {
+      color: white !important;
+    }
+    align-items: flex-start;
+
+    & > div:first-child {
+      min-width: 50px;
+    }
+    & > div:last-child {
+      display: block;
+    }
+  }
+}
+
+.tippy-box[data-theme="custom-width-200"] {
+  .label-value {
+    & > div:first-child {
+      min-width: 200px !important;
+    }
+  }
+}
+.tippy-box[data-theme="long-error"] {
+  max-width: 500px !important;
+  max-height: 500px;
+  min-height: 150px;
+  overflow: auto;
+  background-color: #cc3300;
+  .label-value {
+    div {
+      color: white !important;
+    }
+    align-items: flex-start;
+
+    & > div:first-child {
+      min-width: 50px;
+    }
+    & > div:last-child {
+      display: block;
+    }
+  }
+}
+.tippy-box[data-theme="long"] {
+  max-width: 500px !important;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.tippy-box {
+  background-color: $primary-color-gunmetal;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 30%), 0px 1px 1px 0px rgb(0 0 0 / 15%), 0px 1px 3px 0px rgb(0 0 0 / 60%) !important;
+  div {
+    color: white !important;
+  }
+  .tippy-arrow {
+    color: $primary-color-gunmetal !important;
+  }
+  .label-value {
+    align-items: flex-start;
+
+    & > div:first-child,
+    > span:first-child {
+      min-width: 50px;
+      color: white !important;
+    }
+    & > div:last-child,
+    > span:last-child {
+      display: block;
+      color: white !important;
+    }
+  }
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

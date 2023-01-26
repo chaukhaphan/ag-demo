@@ -1,0 +1,1187 @@
+{
+  "AUTH": {
+    "CHANGE-PASSWORD": {
+      "CHANGE-PASS-TITLE": "Changez Votre Mot de Passe",
+      "LBL_OLD-PASS": "Ancien mot de passe",
+      "LBL_NEW-PASS": "Nouveau mot de passe",
+      "LBL_CONF-PASS": "Confirmez le mot de passe",
+      "BTN_SAVE-PASS": "Enregistrez le nouveau mot de passe",
+      "TXT_ERROR-NOMATCH": "Les mots de passe ne correspondent pas!",
+      "TXT_ERROR-WRONG-PASS": "Mot de passe incorrect !",
+      "TXT_CHANGE-PASS-SUCCESS": "Nouveau mot de passe enregistré avec succès",
+      "TXT_ERROR-MIN-LENGTH": "Existing password must be at least 6 characters (FR)",
+      "TXT_ERROR-PATTERN": "Your password should include at least one numeric character and a special character eg. !@#$ %^&* () ?. (FR)",
+      "TXT_CHANGE-PASS-INFO-L1": "Pour accroître la sécurité de ce site web, nous demandons maintenant de changer votre mot de passe initial.",
+      "TXT_CHANGE-PASS-INFO-L2": "Votre mot de passe doit comporter entre 6 et 10 caractères et distingue entre majuscules et minuscules.",
+      "TXT_CHANGE-PASS-INFO-L3": "Pour nous aider à protéger vos données, vous devez inclure au moins un caractère numérique et un caractère spécial, par exemple. ! @ # $% ^ & * ()?."
+    },
+    "CONTACT-US": {
+      "LBL_PHONE": "Tél.",
+      "LBL_EMAIL": "Courriel",
+      "LBL_EXT": "Ext.",
+      "LBL_FAX": "Télécopieur",
+      "LBL_MOBILE": "Mobile",
+      "LBL_ADDRESS": "Adresse",
+      "LBL_TOLL-FREE": "Gratuit",
+      "TXT_PRIMARY-CONTACTS": "Contacts Primaire",
+      "TXT_ADDITIONAL-CONTACTS": "Contacts Supplémentaires",
+      "TXT_PRESIDENT": "Président",
+      "TXT_PRIMARY-SALESPESON": "Vendeur Primaire",
+      "TXT_VP-NA": "Vice-président aux VENTES, Amérique du Nord",
+      "TXT_SENIOR-VP": "Vice-président directeur, Canada",
+      "TXT_CEO": "Directeur Général",
+      "TXT_TECH-SUPP": "Assistance technique",
+      "TXT_ACC-RECEIV": "Comptes débiteurs"
+    },
+    "LOGIN": {
+      "TXT_LOGIN": "Connexion",
+      "LBL_EMAIL": "Courriel",
+      "LBL_PASSWORD": "Mot de passe",
+      "LBL_FORGOT-PASSWORD": "Mot de passe oublié",
+      "TXT_ERROR_INVALID_EMAIL": "Please enter a valid email. (FR)",
+      "TXT_ERROR_INVALID_PASSWORD": "Please enter a valid password. (FR)",
+      "TXT_DISCLAIMER-LANG1": "Toute utilisation non autorisée de ce système est soumise aux poursuites judiciaires, y compris les POURSUITES EN VERTU DU CODE CRIMINEL.Si vous avez des questions, veuillez communiquer avec Traffic Tech au 1-800-663-4721.",
+      "TXT_DISCLAIMER-LANG2": "Unauthorized use of this system is subject to legal action including PROSECUTION UNDER THE CRIMINAL CODE. If you have any question please contact Traffic Tech Incorporated at 1-800-663-4721.",
+      "TXT_LOGIN-BTN-DISABLED-INSTRUCTION": "Check on the checkbox to confirm you acknowledge the legal statement before logging in (FR)",
+      "TXT_ERROR-INVALID-EMAIL-FOR-FORGOT-PASSWORD": "Cannot proceed due to invalid email address. (FR)",
+      "TXT_ERROR-RESET-PASSWORD-FAIL": "Le courriel fourni n’est pas activé pour une utilisation web",
+      "TXT_ERROR-RESET-PASSWORD-SUCCESS": "Veuillez vous connecter avec le mot de passe temporaire envoyé à votre courriel <span>{{email}}</span>. Vous devez le changer une fois la connexion établie.",
+      "TXT_ERROR_INVALID_ACCOUNT": "Something doesn't match. Please try again. You can also retrieve your user name or reset your password via the 'Forgot password' link. (FR)"
+    },
+    "PROFILE": {
+      "LBL_PROFILE-INFO": "Info. sur le profil",
+      "LBL_COMPANY-INFO": "Info. d'entreprise",
+      "LBL_COMPANY-CONTACT": "Coordonnées de l'entreprise",
+      "HDR_NAME": "Nom",
+      "HDR_UNIT": "Unité",
+      "HDR_WEB": "Accès Web",
+      "LBL_FIRST-NAME": "Prénom",
+      "LBL_LAST-NAME": "Nom",
+      "LBL_EMAIL": "Courriel",
+      "LBL_PHONE": "No. de Tél.",
+      "LBL_WEB-ACCESS": "Accès Web",
+      "LBL_AVAILABLE-UNITS": "Available Unit(s) (FR)",
+      "LBL_COMPANY-NAME": "Nom de l’Entreprise",
+      "LBL_COMPANY-ADDRESS": "Adresse",
+      "LBL_COMPANY-PHONE": "Tél.",
+      "LBL_COMPANY-TOLL-FREE": "Gratuit",
+      "LBL_COMPANY-WEBSITE": "Site web"
+    },
+    "IDLE": {
+      "LBL_YFR": "Oui",
+      "LBL_NO": "Non",
+      "TEXT_EXPIRED-HEADER": "La session a expiré ! (FR)",
+      "TEXT_EXPIRING-HEADER": "Session expirant ! (FR)",
+      "TEXT_EXPIRED-CONTENT": "Votre session a expiré. Veuillez vous reconnecter pour continuer à utiliser le portail ! (FR)",
+      "TEXT_EXPIRING-CONTENT": "Votre session est sur le point d'expirer dans {{countdown}} secondes !. Avez-vous besoin de plus de temps ? (FR)"
+    },
+    "FORGOT-PASSWORD": {
+      "LBL_WARNING": "Avertissement !",
+      "LBL_MESSAGE": "You have requested a password reset. An email with reset password will be sent to <span style='font-weight:bold'>{{email}}</span>.<br> <br>Are you sure you want to proceed? (FR)",
+      "LBL_CONFIRM-BTN": "Confirmez",
+      "LBL_CANCEL-BTN": "Annuler"
+    }
+  },
+  "FOOTER": {
+    "TXT_COPY-RIGHT": "2021 Traffic Tech Inc. Tous droits réservés.",
+    "LINKS": [
+      {
+        "route": "/footer/faq",
+        "label": "FAQ (FR)"
+      },
+      {
+        "route": "/footer/what-new",
+        "label": "What's new? (FR)",
+        "requireLogin": true
+      },
+      {
+        "route": "/footer/terms-and-conditions",
+        "label": "Terms and Conditions (FR)"
+      },
+      {
+        "route": "/footer/feedback",
+        "label": "Feedback (FR)"
+      }
+    ],
+
+    "FAQ": {
+      "FAQ-TOPICS": [
+        {
+          "q": "Réinitialiser mot de passe",
+          "a": "Pour des raisons de sécurité, votre mot de passe devra être modifié lors de votre première connexion. Il s'agit d'un mot de passe généré aléatoirement, mais c'est une bonne pratique de sécurité pour vous obliger à le changer. Seulement vous connaissez le mot de passe. Vous pouvez le changer encore ici.",
+          "isResetPassword": true
+        },
+        {
+          "q": "Mes données sont-elles sécurisées?",
+          "a": "Chez Traffic Tech, nous prenons très au sérieux la sécurité des données. Toutes les données transférées par voie de l'Internet, y compris votre mot de passe, sont cryptées à l'aide de la technologie SSL. Vos données ne vous sont accessibles que grâce à votre mot de passe sécurisé. Pour vérifier que vos données sont cryptées correctement, double-cliquez sur le petit verrou jaune situé dans le coin inférieur droit de la fenêtre de votre navigateur. Cela vous donnera des informations sur la façon dont Traffic Tech crypte vos données. Traffic Tech a également établi un partenariat avec une entreprise de sécurité Internet de premier rang, avec laquelle nous travaillons quotidiennement pour garantir la sécurité des systèmes informatiques internes de Traffic Tech, y compris vos données."
+        },
+        {
+          "q": "Les données de mon profil sont-elles protégées?",
+          "a": "Les informations que vous voyez sur la page 'Mon profil' sont accessibles à tous les utilisateurs de votre entreprise pouvant se connecter au site Traffic Tech Interactive. Pour voir une liste de tous les utilisateurs pouvant se connecter à ce site, consultez la colonne 'Accès Web' de la page 'Mon profil'. Tout utilisateur coché dans cette colonne peut se connecter."
+        },
+        {
+          "q": "Pourquoi devrais-je me déconnecter?",
+          "a": "In the top right hand corner of the screen, there is a profile icon which has Logout option in the dropdown to log you out of this web site. We strongly recommend to help protect your information from being viewed by somebody at your company who should not being viewing it, that when you have finished working on the site, or when you have to leave your desk for any period of time, that you click the 'Logout' button."
+        },
+        {
+          "q": "Quelle est la recherche du no. de ref. ?",
+          "a": "Ceci est utilisé pour rechercher un numéro particulier si vous souhaitez que Traffic Tech l’utilise dans vos envois, c’est-à-dire qu’il peut être utilisé comme numéro de commande, numéro de livraison ou numéro de connaissement. Nos représentants du service à la clientèle peuvent indiquer le numéro de votre choix sur chaque envoi, à condition qu'ils sachent que vous devez utiliser ce numéro. Vous pouvez effectuer vos recherches avec ce numéro dans la page 'Suivi' en utilisant le filtre de colonne du numéro de référence du client dans la grille. Vous pouvez également rechercher une référence à l'aide de la zone de saisie située en haut de la grille."
+        },
+        {
+          "q": "How can I get technical support? (FR)",
+          "a": "For technical support on TT Interactive, email <a href='mailto:Support@traffictech.com'>Support@traffictech.com</a> (FR)"
+        },
+        {
+          "q": "Who do I contact for any accounting questions? (FR)",
+          "a": "For all inquiries relating to invoices or accounting, please contact our Accounts Receivable department by emailing <a href='mailto:ar@traffictech.com'>ar@traffictech.com</a> (FR)"
+        },
+        {
+          "q": "Who can I reach out to for any general questions? (FR)",
+          "a": "For general inquiries and/or TT Interactive support, please email <a href='mailto:Support@traffictech.com'>Support@traffictech.com</a>. Our team of professionals can provide you with solutions and connect you with resources for the platform. (FR)"
+        },
+        {
+          "q": "How long do my loads stay on the portal? (FR)",
+          "a": "At this time, loads will be accessible on the portal indefinitely. In the near future, this may be subjected to data retention policies. (FR)"
+        },
+        {
+          "q": "How to request other colleagues to be activated on the Traffic Tech Customer Portal website? (FR)",
+          "a": "To request access to the site, please email <a href='mailto:Support@traffictech.com'>Support@traffictech.com</a> (FR)"
+        }
+      ],
+      "LBL_EXPAND-ALL": "Expand All (FR)",
+      "LBL_COLLAPSE-ALL": "Collapse All (FR)",
+      "TITLE_FAQ": "QFP"
+    },
+    "WHAT-NEW": {
+      "TITLE_WHAT-NEW": "WHAT'S NEW? (FR)",
+      "WHAT-NEW-TOPICS": [
+        {
+          "title": "Tracking table/grid (FR)",
+          "questions": [
+            {
+              "title": "How to filter/sort? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "How does it look in small screen? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "How to filter in small screen? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "How does open shipment/inventory details? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            }
+          ]
+        },
+        {
+          "title": "Shipment details (FR)",
+          "questions": [
+            {
+              "title": "How to understand over-the-road shipment detail? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "How to open shipment document? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "How to understand cargowise shipment detail? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            }
+          ]
+        },
+        {
+          "title": "Inventory details (FR)",
+          "questions": [
+            {
+              "title": "How to understand inventory detail? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "How to understand inventory shipping detail? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "How to understand inventory receiving detail? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            }
+          ]
+        },
+        {
+          "title": "Book Shipment (FR)",
+          "questions": [
+            {
+              "title": "How to Get a Quote? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "How to Book a Shipment? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            }
+          ]
+        },
+        {
+          "title": "Others (FR)",
+          "questions": [
+            {
+              "title": "Profile? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "How to change password? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            },
+            {
+              "title": "Contact us? (FR)",
+              "videoLink": "how-to-sort-filter.mp4"
+            }
+          ]
+        }
+      ],
+      "LBL_EXPAND-ALL": "Expand All",
+      "LBL_COLLAPSE-ALL": "Collapse All"
+    },
+    "FEEDBACK": {
+      "TITLE_FEEDBACK": "Feedback (FR)",
+      "LBL_SEND_FEEDBACK_BTN": "Send Feedback (FR)",
+      "TXT_DESCRIPTION": "We’re always looking to improve our website for your business needs. Your feedback helps us decide which features to build, and what improvements should be made to the site. Please send any feedback you might have here. Thank you! (FR)",
+      "LBL_SENDING_MESSAGE": "We are sending your feedback... (FR)",
+      "LBL_FEEDBACK_TOPIC": "Topics  (FR)",
+      "FEEDBACK-TOPICS": [
+        "Courier Portal  (FR)",
+        "Customer Portal  (FR)",
+        "Customs Portal (FR)",
+        "Shipments (FR)",
+        "Supplier Login (FR)",
+        "Track Purchase Order (FR)",
+        "Others (FR)"
+      ],
+      "LBL_SUBMIT": "Submit (FR)",
+      "LBL_FORM_NAME": "Name (FR)",
+      "LBL_FORM_NAME_ERROR_INVALID": "Please enter your name (FR)",
+      "LBL_FORM_EMAIL": "Email (FR)",
+      "LBL_FORM_EMAIL_ERROR_INVALID": "Please enter a valid email (FR)",
+      "LBL_FORM_MESSAGE": "Message (FR)",
+      "LBL_FORM_MESSAGE_ERROR_INVALID": "Please enter a message (FR)",
+      "LBL_FORM_RECAPCHA_UNCHECK_MESSAGE": "Please check re-captcha box to proceed (FR)",
+      "LBL_SUBMIT_SUCCESS": "Thanks for the message! Traffic Tech Team will get back to you soon! (FR)",
+      "LBL_SUBMIT_FAIL": "An error has occured... Reload the page and try again. (FR)"
+    },
+    "TERMS-AND-CONDITIONS": {
+      "TXT_TC": "CONDITIONS GÉNÉRALES",
+      "LINKS": [
+        {
+          "extLink": "https://traffictech.com/client-terms-and-conditions/?lang=fr",
+          "label": "Client"
+        },
+        {
+          "extLink": "https://traffictech.com/carrier-terms-and-conditions/?lang=fr",
+          "label": "Fournisseurs "
+        },
+        {
+          "extLink": "https://traffictech.com/customs-terms-and-conditions/?lang=fr",
+          "label": "Douane "
+        },
+        {
+          "extLink": "https://traffictech.com/invoice-terms-and-conditions/?lang=fr",
+          "label": "Facture d'achat "
+        },
+        {
+          "extLink": "https://traffictech.com/warehousing-terms-and-conditions/?lang=fr",
+          "label": "Entreposage"
+        },
+        {
+          "extLink": "https://traffictech.com/privacy-policy/?lang=fr",
+          "label": "Politique de confidentialité"
+        }
+      ]
+    }
+  },
+  "HEADER": {
+    "LOGO_INTERACTIVE_SERVICES_TEXT": "Services Interactifs",
+    "LOGO_CUSTOMER_PORTAL_TEXT": "Portail Clients",
+    "LBL_OVERVIEW": "Aperçu",
+    "LBL_NAV-HOME": "Accueil",
+    "LBL_NAV-OTHER-PORTALS": "Autres portails",
+    "LBL_NAV-PORTALS-INTERACTIVE": "Portail Interactif",
+    "LBL_NAV-PORTALS-CUSTOMER": "Portail Clients",
+    "LBL_NAV-PORTALS-COURIER": "Portail de messagerie",
+    "LBL_NAV-PORTALS-CUSTOM": "Portail des douanes",
+    "LBL_NAV-TRACKING": "Localisation",
+    "LBL_NAV-WAREHOUSE": "Entrepôt",
+    "LBL_NAV-LTL": "LTL",
+    "LBL_NAV-LTL-QUICK-QUOTE": "Cotización Rápida",
+    "LBL_NAV-LTL-BOOKING": "RFRerve Embarque",
+    "LBL_NAV-TRACK-PO": "Suivi de mon bon de commande (BC)",
+    "SIDE-NAV": {},
+    "TOP-NAV": {
+      "LBL_PROFILE": "Profile",
+      "LBL_CONTACT-US": "Contactez-nous",
+      "LBL_LOGOUT": "Se déconnecter",
+      "LBL_AGENT": "TT User: "
+    }
+  },
+  "HOME": {
+    "TXT_NOTIFICATION": "Bienvenue sur le site Web du portail client version 2.0.",
+    "LBL_WHAT_NEW": "Quoi de neuf?",
+    "LBL_WHAT_NEW_MESSAGE": "Nous sommes ravis de vous annoncer le lancement de notre nouveau site Web repensé! N'hésitez pas à explorer les fonctionnalités disponibles.<br /> Veuillez nous faire part de vos commentaires ou préoccupations afin que nous continuions à vous offrir une expérience en ligne transparente et plus intuitive.",
+    "LBL_WHAT_NEW_SUGGESTION": "Pour vous aider à naviguer sur notre site Web sécurisé, entièrement réactif et optimisé pour les mobiles, nous avons publié une série de vidéos dans la page FAQ.",
+    "LBL_WHAT_NEW_WELCOME_MSG": "Welcome back (FR)",
+    "LBL_WHAT_NEW_DISCOVER": "Discover  (FR)",
+    "LBL_LOGIN_POPUP_LINK": "Veuillez cliquer ici pour vous connecter au portail client.",
+    "LBL_FOOTER_FAQ_LINK": "Veuillez cliquer ici pour les consulter.",
+    "LBL_NAV-PORTALS": "Portails",
+    "TXT_OVERVIEW": "Welcome to TT Customer Portal! Traffic Tech’s fully responsive and mobile optimized logistics portal is designed to help our customers easily access, view and track ocean, air and inland shipments; as well as provide the ability to compare rates, book and track LTL shipments in real time. Our online services also offer access to warehouse inventory, tracking of small package, and Customs updates on shipments. (FR)",
+    "TXT_PORTALS-CORIER": "Log in here to track your small packages to get timely updates and confirm your package is moving. (FR)",
+    "TXT_PORTALS-CUSTOMS": "Log in here to seamlessly access Canadian Customs to view, track and manage critical import information and Customs release updates. (FR)",
+    "TXT_PORTALS-CUSTOMER": "Log in here to access your profile, compare quotes and book shipments online. You can follow your shipments and check your inventory online. (FR)",
+    "BANNER-CAROUSEL": [
+      {
+        "img": "../../../assets/images/home/otr",
+        "title": "Over The Road (FR)",
+        "content": "For more than 30 years in the logistics industry, Traffic Tech has formed relationships with over 15,000 small to midsize carriers throughout the U.S., Mexico and Canada, giving us a loyal fleet of over 600,000 trucks at our immediate disposal. Our trained team of experts can help you transport your goods safely, effective and in a way that caters to your organization’s needs. (FR)"
+      },
+      {
+        "img": "../../../assets/images/home/ao",
+        "title": "Air & Ocean (FR)",
+        "content": "We’re not constrained by borders. With wholly-owned offices in North America, South America and Asia, and strategic partnerships in Europe and the Indian subcontinent, Traffic Tech’s ability to function on a global scale makes us one of the most powerful transportation companies you can do business with. (FR)"
+      },
+      {
+        "img": "../../../assets/images/home/wh",
+        "title": "Warehouse & Storage (FR)",
+        "content": "We’re proud to offer a full range of convenient and cost-effective warehousing services. Traffic Tech’s five strategic warehouse locations and robust network of third-party warehouses allow for increased storage flexibility and on-time delivery, while our leading-edge technology systems let you monitor and track your inventory movement in real time. We’re even able to integrate that data with your existing business systems.(FR)"
+      },
+      {
+        "img": "../../../assets/images/home/cu",
+        "title": "Customs (FR)",
+        "content": "Regardless of your port of entry or origin, we’re ready to facilitate your clearance. Traffic Tech’s expert, in-house customs department handles customs clearance at all ports in North America, 24 hours a day, seven days a week to ensure the most efficient deliveries. (FR)"
+      }
+    ]
+  },
+  "LTL": {
+    "SHIPPING-POINTS": {
+      "TXT_GRID-INSTRUCTION": "* Please double click on the row or click on Details button to view more details or modify the location (FR)",
+      "LBL_SELECT-BUTTON": "Sélectionner",
+      "LBL_MODIFY-BUTTON": "Modifier",
+      "LBL_ADD-BUTTON": "Add shipping point (FR)",
+      "LBL_GRID-MOBILE-HEADER": "Full Details (FR)",
+      "LBL_GRID-HEADER-COMPANY-NAME": "Nom de l’Entreprise",
+      "LBL_GRID-HEADER-ADDRESS1": "Adresse",
+      "LBL_GRID-HEADER-STATE": "Province",
+      "LBL_GRID-HEADER-COUNTY": "Ville",
+      "LBL_GRID-HEADER-COUNTRY-CODE": "Contry Code (FR)",
+      "LBL_GRID-HEADER-PHONE": "No. de Tél.",
+      "SHIPPING-POINT-DETAILS": {
+        "LBL_COMPANY-NAME": "Nom de l’Entreprise",
+        "LBL_ADDRESS1": "Primary Address (FR)",
+        "LBL_ADDRESS2": "Secondary Address (FR)",
+        "LBL_COMPANY-TELEPHONE": "Company Telephone (FR)",
+        "LBL_ZIP": "Code Postal",
+        "LBL_CITY": "Ville",
+        "LBL_OPEN-24": "Ouvert 24h",
+        "LBL_OPEN-FROM": "Open From (FR)",
+        "LBL_OPEN-TO": "Open To (FR)",
+        "LBL_DEFAULT-INSTRUCTIONS": "Instructions",
+        "LBL_DEFAULT-SHIPPER": "Exportateur par défaut",
+        "LBL_DEFAULT-CONSIGNEE": "Destinataire par défaut",
+        "LBL_CONTACT-FIRST-NAME": "Contact's First Name (FR)",
+        "LBL_CONTACT-LAST-NAME": "Contact's Last Name (FR)",
+        "LBL_CONTACT-PHONE": "Contact's Phone (FR)",
+        "LBL_CONTACT-PHONE-EXT": "Ext.",
+        "LBL_CONTACT-EMAIL": "Courriel",
+        "LBL_ADD": "Ajouter",
+        "LBL_MODIFY": "Save",
+        "LBL_CANCEL": "Annuler",
+        "LBL_CITY-PLACEHOLDER-ZIP-TO-CITY": "Écrivez le code postal pour chercher la ville",
+        "LBL_CITY-PLACEHOLDER-CITY-NAME-TO-CITY": "Type city name to lookup city (FR)",
+        "LBL_ERROR-CITY-NOT-FOUND": "No city matches the input zip (FR)",
+        "LBL_UNMATCH-ZIP-ERROR": "Impossible de correspondre au code postal fourni",
+        "LBL_CITY-PLACEHOLDER-SELECT-CITY": "Select city (FR)",
+        "LBL_LOCATION-UNMATCH-ZIP-CITY-SUGGESTION": "Your provided zip code is valid. Howeve we cannot find any city matched it. Please type to search for city. (FR)",
+        "LBL_MISSING_INFO_GENERAL": "There is some information missing in the selected shipping points. Pleasemodify and update... (FR)"
+      }
+    },
+
+    "BOOKING": {
+      "TXT_CREDIT-WARN-OVER-LIMIT": "La limite de crédit de votre compte a été dépassée.",
+      "TXT_CREDIT-WARN-ON-HOLD": "Votre compte est en attente.",
+      "TXT_CREDIT-WARN-INFO": "Account issue(s). You can still check rates but booking option is disabled. (FR)",
+      "TXT_CREDIT-ALL-GOOD": "All good. (FR)",
+      "TXT_CREDIT_CHECKING_RESULT_HINT": "Credit checking result for {{account}}: {{message}} (FR)",
+
+      "TXT_RECENT-REQUESTS-SELECT": "Demandes Récentes",
+      "LBL_RECENT-REQUESTS-PLACEHOLDER": "Select a request (FR)",
+
+      "HEADING_SHIPPER": "Expéditeur",
+      "HEADING_CONSIGNEE": "Destinataire",
+      "LBL_SELECT-LOCATION-BTN": "Select from Location Manager (FR)",
+      "LBL_NEW-LOCATION-SWITCHER": "New Location (FR)",
+      "LBL_LOCATION-LIST": "List of Locations (FR)",
+      "TXT_LOCATION-MODIFY-BTN": "Modifier",
+      "TXT_LOCATION-DEFAULT-BTN": "Default (FR)",
+      "TXT_LOCATION-SAVE-AS-NEW-BTN": "guardar como ubicación nueva",
+      "LBL_LOCATION-LIMITTED-ACCESS": "List of limited access (FR)",
+      "LBL_LOCATION-PICKUP-NUMBER": "No. de cueillette",
+      "LBL_LOCATION-DELIVERY-NUMBER": "No. de livraison",
+      "LBL_LOCATION-INSTRUCTION": "Instructions",
+
+      "HEADING_FREIGHT-DETAILS": "Fret",
+      "LBL_FREIGHT-DETAILS-DECLARED-VALUE": "Valeur déclarée",
+      "LBL_FREIGHT-DETAILS-ADD-MORE-FREIGHT-BTN": "Add Freight (FR)",
+      "LBL_FREIGHT-DETAILS-FREIGHT-NUMBER": "Freight # (FR)",
+      "LBL_FREIGHT-DETAILS-FREIGHT-DESCRIPTION": "Description",
+      "LBL_FREIGHT-DETAILS-FREIGHT-SIZE": "Dimension",
+      "LBL_FREIGHT-DETAILS-FREIGHT-LENGTH": "Longueur",
+      "LBL_FREIGHT-DETAILS-FREIGHT-WIDTH": "Largeur",
+      "LBL_FREIGHT-DETAILS-FREIGHT-HEIGHT": "Hauteur",
+      "LBL_FREIGHT-DETAILS-FREIGHT-SIZE-UNIT": "po",
+      "LBL_FREIGHT-DETAILS-FREIGHT-QUANTITY": "Quantité",
+      "LBL_FREIGHT-DETAILS-FREIGHT-WEIGHT": "Poids total",
+      "LBL_FREIGHT-DETAILS-FREIGHT-WEIGHT-UNIT": "lbs",
+      "LBL_FREIGHT-DETAILS-FREIGHT-CLASS": "Catégorie",
+      "LBL_FREIGHT-DETAILS-FREIGHT-NMFC": "NMFC",
+      "LBL_FREIGHT-DETAILS-FREIGHT-NMFC-NOT-PROVIDED": "(Not Provided) (FR)",
+      "LBL_FREIGHT-CLASS-CALCULATION-MISS-INFO-ERROR": "Weight, length, width, height are required (FR)",
+      "LBL_FREIGHT-CLASS-CALCULATION-INVALID-INFO-ERROR": "Invalid freight's weight or sizes (FR)",
+      "LBL_FREIGHT-NMFC-ERROR": "Incorrect NMFC format (FR)",
+      "TOOLTIP_NMFC": "Les formats acceptés sont:",
+
+      "LBL_SELECTED-CARRIER-FREIGHT-CHARGE": "Frais de transport",
+      "LBL_SELECTED-CARRIER-FUEL-CHARGE": "Charge de carburant",
+      "LBL_SELECTED-CARRIER-OTHER-CHARGES": "Autres frais",
+      "LBL_SELECTED-CARRIER-REFERENCE": "References",
+      "LBL_SELECTED-CARRIER-DATE-OF-TRANSIT": "Days of transit (FR)",
+      "LBL_SELECTED-CARRIER-CARRIER-NOTE": "Notes du transporteur",
+      "LBL_SELECTED-CARRIER-TOTAL-CHARGE": "Total",
+      "LBL_SELECTED-CARRIER-SELECT-DIFFERENT-CARRIER-BTN": "Select different carrier (FR)",
+
+      "TITLE_BILLING-DETAILS": "Détails de Facturation",
+      "LBL_BILLING-DETAILS-PARTY": "Client de facturation",
+      "LBL_BILLING-DETAILS-SHIPMENT-REFERENCE": "References",
+      "LBL_BILLING-DETAILS-REF-TYPE": "Ref Types (FR)",
+      "LBL_BILLING-DETAILS-REF-NUMBER": "Ref # (FR)",
+      "LBL_BILLING-DETAILS-REF-ADD-BTN": "Ajouter",
+      "LBL_BILLING-DETAILS-SELECTED-REF": "Selected references (FR)",
+
+      "TITLE_ACCESSORIALS": "Accessoires",
+      "LBL_ACCESSORIALS-SELECTED": "Sélectionné",
+      "TITLE_SHIPMENT-DETAILS": "Détails d'expédition",
+      "LBL_SHIPMENT-DETAILS-PICKUP-DATE": "Date de ramassage",
+      "LBL_SHIPMENT-DETAILS-ESTIMATE-DELIVERY-DATE": "Date de livraison estimée",
+      "LBL_ACCESSORIALS-SELECT-ALL-BTN": "Sélectionnez tout",
+      "LBL_ACCESSORIALS-CLEAR-ALL-BTN": "Désélectionnez tout",
+      "ACCESSORIALS": [
+        {
+          "label": "Cueillette résidentiel",
+          "name": "isResidentialPickup",
+          "groupName": "Cueillette"
+        },
+        {
+          "label": "Cueillette interne",
+          "name": "isInsidePickup",
+          "groupName": "Cueillette"
+        },
+        {
+          "label": "Cueillette avec hayon arrière",
+          "name": "isLiftgatePickup",
+          "groupName": "Cueillette"
+        },
+        {
+          "label": "Rendez-vous requis",
+          "name": "appointmentRequired",
+          "groupName": "Livraison"
+        },
+        {
+          "label": "Livraison résidentielle",
+          "name": "isResidentialDelivery",
+          "groupName": "Livraison"
+        },
+        {
+          "label": "Livraison interne",
+          "name": "isInsideDelivery",
+          "groupName": "Livraison"
+        },
+        {
+          "label": "Livraison avec hayon arrière",
+          "name": "isLiftgateDelivery",
+          "groupName": "Livraison"
+        },
+        {
+          "label": "Notification requise",
+          "name": "deliverNotification",
+          "groupName": "Livraison"
+        },
+        {
+          "label": "Trier et Ségréguer",
+          "name": "sortSegregate",
+          "groupName": "Livraison"
+        },
+        {
+          "label": "Blind Shipment",
+          "name": "isBlindShipment",
+          "groupName": "Cargaison"
+        }
+      ],
+      "TOOLTIP-ADD-BILL-TO": "Pour ajouter, modifier ou prédéterminer un client de facturation, contactez votre fournisseur. ",
+      "TOOLTIP-CALCULATE-CLASS-TITLE": "Cliquez sur <span class='material-symbols-outlined class'>calculate</span> pour calculer la catégorie suggérée.",
+      "TOOLTIP_CALCULATE_CLASS_DISCLAIMER_L1": "Déni de responsabilité - Traffic Tech Inc. et ses filiales ne sont pas responsables de l'exactitude du calcul de la catégorie.",
+      "TOOLTIP_CALCULATE_CLASS_DISCLAIMER_L2": "L'outil de calcul de catégorie ne fournit qu'une estimation.",
+      "TOOLTIP_CALCULATE_CLASS_DISCLAIMER_L3": "Toute personne ayant l’intention d’agir ou de se fier à ces informations le fait à ses risques et périls.",
+
+      "TITLE_PICK-UP-DETAILS": "Pick up details (FR)",
+      "LBL_PICK-UP-WEEKEND-WARNING": "Pour une cueillette de fin de semaine, contactez votre vendeur.",
+      "LBL_PICK-UP-DETAILS": "Select date (FR)",
+
+      "TITLE_CUSTOM-BROKER": "Courtier/courtière en douane",
+      "LBL_CUSTOM-BROKER-NAME": "Nom du courtier en douane",
+      "LBL_CUSTOM-BROKER-WARNING": "Il s'agit d'un envoi transfrontalier; nous vous recommandons fortement d'ajouter le courtier en douane responsable du dédouanement de cet envoi dans la case ci -dessous",
+      "LBL_CUSTOM-BROKER-TOGGLE-SELECT": "Sélectionner un courtier",
+      "LBL_CUSTOM-BROKER-TOGGLE-IGNORE": "Ignorer le courtier",
+      "LBL_CUSTOM-BROKER-CLEARING-FOR": "Dédouanement de",
+      "LBL_CUSTOM-BROKER-CLEARING-FOR-MY-COMPANY": "Mon entreprise",
+      "LBL_CUSTOM-BROKER-CLEARING-FOR-SHIPPER": "Shipper (FR)",
+      "LBL_CUSTOM-BROKER-CLEARING-FOR-CONSIGNEE": "Consignee (FR)",
+      "LBL_CUSTOM-BROKER-CLEARING-FOR-SHIPPER-TOOLTIP": "Missing shipper information (FR)",
+      "LBL_CUSTOM-BROKER-CLEARING-FOR-CONSIGNEE-TOOLTIP": "Missing consignee information (FR)",
+      "LBL_CUSTOM-BROKER-CLEARING-FOR-OTHERS": "Autres",
+      "LBL_CUSTOM-BROKER-CLEAR-FOR-DETAILS": "Dédouanement de: précisez",
+
+      "LBL_BILLING-INFO-TAB": "Rate request forms (FR)",
+      "LBL_VIEW-RATE-TAB": "Rate result (FR)",
+      "LBL_SELECT-RATE-TAB": "Select Rate (FR)",
+
+      "LBL_BOOKING_LOADING_MESSAGE": "We are processing your shipment booking. Please wait... (FR)",
+
+      "BOOKING-RESULT": {
+        "TXT_BOOKING_COMPLETED": "Thank you! Your shipment is booked and dispatched succFRsfully! (FR)",
+        "TXT_BOOKING_FAIL": "Sorry! Shipment Booking Fail! (FR)",
+        "TXT_FAIL_BOOKING_ERROR_GENERIC": "Il y avait un problème pour réserver votre expédition. Contactez votre vendeur.",
+        "TXT_FAIL_DISPATCH_ERROR_GENERIC": "Veuillez modifier les détails du chargement ou contacter votre vendeur.",
+        "LBL_SUCCFRS-CARRIER-NAME": "Transporteur",
+        "LBL_SUCCFRS-PICKUP-NUMBER": "Pickup # (FR)",
+        "LBL_SUCCFRS-BOL-NUMBER": "No. du Connaissement",
+        "BTN_MODIFY_SHIPMENT": "Modifier les détails de la cargaison",
+        "BTN_CHANGE_SUPPLIER": "Choisissez un autre transporteur",
+
+        "TITLE_EMAIL_SEND": "Do you want to send a copy of BOL document? (FR)",
+        "LBL_EMAIL_RECIPIENT": "Destinataire du courriel",
+        "LBL_EMAIL_SUBJECT": "Objet",
+        "LBL_EMAIL_BODY": "Contenu",
+        "LBL_EMAIL_SEND": "Envoyez le BOL",
+        "LBL_VIEW_BOL": "Consultez le BOL",
+        "TXT_BOL_BTN_DISABLED_INSTRUCTION": "View BOL is not available at the moment. (FR)",
+        "TXT_BOL_EMAIL_BODY_l1": "Trouvez ci-joint le connaissement no. #{{bolNo}}.",
+        "TXT_BOL_EMAIL_BODY_l2": "Pour toute question ou tout commentaire, contactez {{fullName}} de {{companyName}}",
+        "TXT_BOL_EMAIL_BODY_l3": "Merci",
+        "TXT_BOL_EMAIL_BODY_l4": "Information du contact",
+        "TXT_SENDING_EMAIL": "envoi du courriel...",
+        "TXT_SENDING_EMAIL_OK": "Votre courriel a été envoyé avec succès.",
+        "TXT_SENDING_EMAIL_ERR": "Un problème est survenu lors de l'envoi de votre courriel.",
+        "UNSENT_BOL_TITLE": "Courriel non envoyé !",
+        "TXT_UNSENT_BOL_WARNING": "Votre courriel n'a pas été envoyé. Pour assurer l'accomplissement de la cotation envoyée par le biais d'Interactive Services (à condition que les informations fournies au moment de cotiser soient identiques à celles de l'enlèvement), il est nécessaire que le connaissement  (BOL) émis par le biais d'Interactive Services soit remis au conducteur au moment de l'enlèvement.",
+        "TXT_UNSENT_BOL_CONFIRM": "Êtes-vous sûr de vouloir fermer sans envoyer?",
+        "LBL_OK-BUTTON": "OK",
+        "LBL_CANCEL-BUTTON": "Annuler"
+      },
+
+      "BOOKING-SUMMARY": {
+        "TITLE": "Summary (FR)",
+        "TXT_INSTRUCTION": "Click on each section to focus on form section (FR)",
+        "LBL_FROM": "de",
+        "LBL_TO": "à",
+        "LBL_FREIGHT": "Fret",
+        "LBL_FREIGHT-DECLARED-VALUE": "Valeur déclarée",
+        "LBL_FREIGHT-DESCRIPTION": "Description",
+        "LBL_FREIGHT-SIZE": "Dimension",
+        "LBL_FREIGHT-WEIGHT": "Poids",
+        "LBL_FREIGHT-CLASS": "Catégorie",
+        "LBL_FREIGHT-NMFC": "NMFC",
+        "LBL_FREIGHT-SELECT-NMFC": "Select NMFC (FR)",
+
+        "LBL_BILLING-PARTY": "Client de facturation",
+        "LBL_SHIPMENT-REFERENCE": "References",
+
+        "LBL_ACCESSORIALS": "Accessoires",
+
+        "LBL_BROKER": "Broker (FR)",
+        "LBL_BROKER-ADDRESS": "Adresse",
+        "LBL_BROKER-TELEPHONE": "Tel.",
+        "LBL_BROKER-FAX": "Fax",
+        "LBL_BROKER-CLEARING-FOR": "Dédouanement de",
+
+        "LBL_PICK-UP": "Date de ramassage",
+        "LBL_ESTIMATED-DELIVERY-DATE": "Date de livraison estimée",
+
+        "LBL_SELECTED-CARRIER": "Selected Carrier (FR)",
+        "LBL_SELECTED-CARRIER-FREIGHT-CHARGE": "Frais de transport",
+        "LBL_SELECTED-CARRIER-FUEL-CHARGE": "Charge de carburant",
+        "LBL_SELECTED-CARRIER-OTHER-CHARGES": "Autres frais",
+        "LBL_SELECTED-CARRIER-REFERENCE": "References",
+        "LBL_SELECTED-CARRIER-DATE-OF-TRANSIT": "Days of transit (FR)",
+        "LBL_SELECTED-CARRIER-CARRIER-NOTE": "Notes du transporteur",
+        "LBL_SELECTED-CARRIER-TOTAL-CHARGE": "Total",
+        "LBL_SELECTED-CARRIER-SELECT-DIFFERENT-CARRIER-BTN": "Select different carrier (FR)",
+        "TXT_TOOLTIP_EDIT_MESSAGE": "Edit NMFC (FR)",
+        "TXT_TOOLTIP_EDIT-MODIFY-BTN": "Modifier",
+
+        "LBL_ACTION-MODIFY-FORM-BTN": "Modifiez formulaire",
+        "LBL_ACTION-CLEAR-FORM-BTN": "Effacez formulaire",
+        "LBL_ACTION-GET-RATE-BTN": "Obtenir Tarif",
+        "LBL_ACTION-BOOKING-BTN": "Réservez l'Expédition",
+        "LBL_ACTION-CANCEL-BTN": "Annuler",
+
+        "LBL_OPTIONAL": "Optional (FR)",
+        "LBL_ERROR-TO-TITLE": "Destinataire",
+        "LBL_ERROR-FROM-TITLE": "Expéditeur",
+        "LBL_ERROR-REQUIRED": "Required (FR)",
+        "LBL_ERROR-MISSING": "Missing (FR)",
+        "LBL_ERROR-NOT-PROVIDED": "Not provided (FR)",
+        "LBL_ERROR-MISSING-COMPANY-NAME": "Nom de l’Entreprise",
+        "LBL_ERROR-MISSING-ADDRESS": "Adresse",
+        "LBL_ERROR-MISSING-CITY": "Ville",
+        "LBL_ERROR-MISSING-ZIP": "Code Postal",
+        "LBL_ERROR-MISSING-COMPANY-PHONE": "Tél.",
+        "LBL_ERROR-MISSING-CONTACT-FIRST-NAME": "Contact first name (FR)",
+        "LBL_ERROR-MISSING-CONTACT-LAST-NAME": "Contact last name (FR)",
+        "LBL_ERROR-MISSING-CONTACT-EMAIL": "Contact email (FR)",
+        "LBL_ERROR-MISSING-CONTACT-PHONE": "Contact phone (FR)",
+        "LBL_ERROR-MISSING-HOURS-OF-OPERATION": "Hours of operation (FR)",
+        "LBL_ERROR-MISSING-FREIGHT-INFO": "Freight #{{index}} info (FR)",
+        "LBL_ERROR-MISSING-FREIGHT-DECLARED-VALUE": "Valeur déclarée",
+        "LBL_ERROR-MISSING-FREIGHT-QUANTITY": "Quantité",
+        "LBL_ERROR-MISSING-FREIGHT-DESCRIPTION": "Description",
+        "LBL_ERROR-MISSING-FREIGHT-SIZE": "Dimension",
+        "LBL_ERROR-MISSING-FREIGHT-WEIGHT": "Poids total",
+        "LBL_ERROR-MISSING-FREIGHT-CLASS": "Catégorie",
+        "LBL_ERROR-MISSING-FREIGHT-NMFC": "NMFC. Please click on <span style='width: 20px;height: 20px;border-radius: 3px;font-size: 20px;border: 1px solid white;' class='material-symbols-outlined class'>edit_note</span> to select one. (FR)",
+        "LBL_ERROR-MISSING-BROKER-SUPPLIER": "Courtier/courtière en douane",
+        "LBL_ERROR-MISSING-BROKER-CLEARING-FOR-TYPE": "Clearing for type. Please select the list (FR)",
+        "LBL_ERROR-MISSING-BROKER-CLEARING-FOR-DETAILS": "Dédouanement de: précisez",
+        "LBL_ERROR-MISSING-PICKUP-DATE": "Please select a date for pick up (FR)",
+        "LBL_RERATE-WARNING": "Are you sure you want to modify the form as it causes a rerate? (FR)",
+        "LBL_ERROR-MISSING-SELECTED-CARRIER-SELECT-BUTTON": "Please click on row to see quote details and click on Choose button to select the quote (FR)",
+        "LBL_ERROR-BOOK-SHIPMENT-NOT-ALLOW": "Sorry. You do not have permission to book shipment! (FR)"
+      },
+
+      "SHARED": {
+        "LBL_CHECKING-CREDIT": "Checking credit (FR)"
+      }
+    },
+    "QUOTE": {},
+    "RATE": {
+      "LBL_TAB_QUOTE": "Quotes (FR)",
+      "LBL_TAB_QUOTE_WITHOUT_RATES": "Quotes without rates (FR)",
+      "LTL_TOOLTIP-COMPARE": "Sélectionnez 2 tarifs ou plus pour comparer",
+      "LTL_BTN-COMPARE": "Comparer des tarifs",
+      "LTL_RATE-DISCLAIMER": "Les tarifs sont basés sur les heures d'ouverture du lundi au vendredi, à l'exception des jours fériés. Les expéditions réservées après 15h00, heure locale, pour un cueillette le jour même ne peuvent être expédiées que le lendemain.",
+      "LTL_QUOTE-DISCLAIMER-L1": "Les tarifs ne sont utilisés qu'à des fins de devis.",
+      "LTL_QUOTE-DISCLAIMER-L2": "Click here to proceed with booking, you will need to provide additional information that will cause a rerate. (FR)",
+      "LTL_QUOTE-CARRIER-WARNING-HEADER": "Carrier warning(s) (FR)",
+      "LTL_QUOTE-esEIGHT-WARNING-HEADER": "eseight warning(s) (FR)",
+      "LTL_QUOTE-DFQ-WARNING_ABF": " * ABF eseight Systems – Devis dynamique (valable pendant 7 jours seulement). Les dimensions et le poids exacts avec le NUMÉRO DU DEVIS sont OBLIGATOIRes sur le CONNAISSEMENT.",
+      "LTL_QUOTE-DFQ-WARNING_NPME": " * New Penn Motor Express, Inc. – La NMFC doit figurer sur le CONNAISSEMENT! Sinon, le tarif de la classe 175 est applicable.",
+      "LTL_QUOTE-DFQ-WARNING_SAIA": " * Saia Motor eseight – Devis dynamique (valable 7 jours seulement). La classe, les dimensions et le poids exacts ainsi que le numéro de devis sont OBLIGATOIRes sur le CONNAISSEMENT.",
+      "LTL_QUOTE-DFQ-WARNING_KIDY": " * Kindersley Transport, Ltd. – IMPORTANT - Le CONNAISSEMENT DOIT préciser le type de service : SERVICE ROUTIER ou SERVICE FERROVIAIRE.",
+      "TXT_LINEAR-FOOTAGE-WARN": "La taille de la cargaison est supérieure à 10 pieds linéaires.",
+      "TXT_TOTAL-WEIGHT-WARN": "Le poids total de la cargaison est supérieur à 5 000 livres.",
+      "TXT_ITEM-LENGTH-WARN": "La longueur d'un article de eset est supérieure à 120 pouces.",
+      "TXT_SPOT-QUOTE-WARN": "Contactez votre vendeur pour un devis immédiat du volume",
+      "TXT_VALID-RATes-WARN": "Les tarifs LTL sont toujours valables.",
+      "TXT_TRANSIT-INFO": "Le temps de transit est estimé et n'inclut pas le jour de cueillette, les fins de semaine et les jours fériés.",
+      "TXT_NMFC-WARNING": "Le fournisseur que vous avez sélectionné exige un NMFC pour tous les articles de eset. Cliquez sur OK pour continuer.",
+
+      "LBL_RATE-RESULT-INSTRUCTION": "Click on row to see rate details and choose the carrier (FR)",
+      "LBL_RATE-RESULT-INSTRUCTION-QUICK-QUOTE": "Click on row to see rate details (FR)",
+      "LBL_RATE-RESULT-INSTRUCTION-BOOK": "Click on row to see rate details and choose the carrier to book (FR)",
+      "HEADING_SHIPMENT-DETAILS": "Détails d'expédition",
+      "LBL_SHIPMENT-DETAILS-ORIGIN": "de",
+      "LBL_SHIPMENT-DETAILS-DFRTINATION": "à",
+      "LBL_SHIPMENT-DETAILS-DECLARED-VALUE": "Valeur déclarée",
+      "LBL_SHIPMENT-DETAILS-ACCESSORIALS": "Accessoires",
+      "LBL_SHIPMENT-DETAILS-EQUPMENT": "Équipement",
+      "LBL_SHIPMENT-DETAILS-NO-OF-FREIGHT": "No. of freight (FR)",
+
+      "TITLE_FREIGHT": "Fret",
+      "LBL_FREIGHT-DESCRIPTION": "Description",
+      "LBL_FREIGHT-TOTAL-WEIGHT": "Poids total",
+      "LBL_FREIGHT-CLASS": "Catégorie",
+      "LBL_FREIGHT-SIZE": "Dimension",
+      "LBL_FREIGHT-SIZE-UNIT": "po",
+
+      "LBL_PROCESS-TO-BOOKING-BTN": "Procéder à la réservation",
+      "LBL_CANCEL-BTN": "Annuler",
+
+      "TITLE_BOOKING-WARNING": "Avertissement !",
+      "LBL_BOOKING-MISSING-NMFC-QUESTION": "Do you want to add NMFC to your freight items? (FR)",
+      "LBL_BOOKING-MISSING-NMFC-ANSWER-RESELECT": "Select different carrier (FR)",
+      "LBL_BOOKING-MISSING-NMFC-ANSWER-ADD-NMFC": "Add NMFC (FR)",
+
+      "LBL_GRID_HEADER-NAME-QUOTE-NO-RATE": "Les transporteurs suivants n'ont pas fourni de tarif pour les expéditions",
+      "LBL_GRID_HEADER-DETAILS": "Détails",
+
+      "LBL_QUOTE-NO-RATE-LOADING-MESSAGE": "Veuillez patienter...",
+      "LBL_QUOTE-WITH-RATE-LOADING-MESSAGE": "Getting available carriers for your shipment. Please wait... (FR)",
+      "LBL_GRID_HEADER-NAME-CARRIER-NAME": "Transporteur",
+      "LBL_GRID_HEADER-NAME-CUSTOMER-PRICE": "Tarif",
+      "LBL_GRID_HEADER-NAME-TRANSIT-TIME": "Transit",
+      "LBL_GRID_HEADER-NAME-COVERAGE-LIMIT": "Limite de couverture",
+      "LBL_GRID_HEADER-NAME-QUOTE-NUMBER": "Devis #",
+      "LBL_GRID_HEADER-NAME-ADD-TO-COMPARE": "Add to compare (FR)",
+      "TXT_SAME_DAY": "même jour",
+
+      "LBL_GRID_HEADER-NAME-FREIGHT-CHARGE": "Frais de transport",
+      "LBL_GRID_HEADER-NAME-FUEL-CHARGE": "Charge de carburant",
+      "LBL_GRID_HEADER-NAME-OTHER-CHARGES": "Autres frais",
+      "LBL_GRID_HEADER-NAME-CUSTOMER-PRICE-COMPARED": "Total",
+      "LBL_DATE-OF-TRANSIT": "Days of transit (FR) *",
+      "LBL_NOTE": "Notes du transporteur",
+      "LBL_CARRIER-NOT-CAPABLE": "This supplier is not set up for on-line booking. To proceed please contact your Team at Traffic Tech. (FR)",
+
+      "LBL_QUOTE-DETAILS-CURRENTLY-SELECTED-BTN": "Currently Selected (FR)",
+      "LBL_QUOTE-DETAILS-CHOOSE-BTN": "Choose (FR)"
+    }
+  },
+  "TRACK-PO": {
+    "TRACKING_TITLE": "Suivi de mon bon de commande (BC)",
+    "TXT_SEARCH_EXAMPLE": "*Pour rechercher un envoi, entrez le no de BC, le no de la rue de destination (p. ex. pour 145 Main Street, entrez seulement 145) et l'état/province de destination.",
+    "LBL_PURCHASE_ORDER": "Bon de Commande",
+    "LBL_DEST_STATE": "État/Prov. de Destination",
+    "LBL_STREET_NR": "No de la Rue de destination",
+    "LBL_PICKUP_TS": "Date/Heure de Ramassage",
+    "LBL_DELIVERY_TS": "Date/Heure de Livraison",
+    "TXT_NO_REC": "Aucun envoi trouvé associé à ce bon de commande.",
+    "TXT_NO_FREIGHT": "Fret non disponible",
+    "LBL_SHP_REFERENCES": "References",
+    "LBL_LAST_LOC": "Lieu le plus récent",
+    "TXT_LAST_LOC_NA": "non disponible",
+    "LBL_SEARCH_BTN": "Chercher",
+    "LBL_SHIPMENT_ID": "Cargaison",
+    "LBL_ORIGIN": "Origine",
+    "LBL_DESTINATION": "Destination",
+    "LBL_SHIPMENT_STATUS": "Statut",
+    "TXT_RESULT_TITLE": "Résultat",
+    "LBL_FREIGHT": "Fret",
+    "LBL_FREIGHT_DETAILS": "{{quantity}} {{unit}} de {{description}}",
+    "TXT_RESULT_MESSAGE": "Found {{numbeOfshipment}} shipment(s) (FR)"
+  },
+  "TRACKING": {
+    "CW": {
+      "CW-DETAILS": {
+        "TXT_FILE-NUMBER": "No. de dossier",
+        "TXT_SHIPMENT-NUMBER": "Cargaison#",
+        "TXT_SHIPMENT-STATUS-NUMBER": "État général",
+        "TXT_HOUSE-BILL-NUMBER": "No. Interne",
+        "TXT_TRANSPORT-MODE": "Mode de Transport",
+        "LBL_TRACKING-TAB": "LOCALISATION",
+        "LBL_DOCUMENT-TAB": "DOCUMENT",
+        "LBL_CONTACT-US-TAB": "Contactez-nous",
+
+        "DETAILS-TRACKING": {
+          "LBL_OVERALL_STATUS": "État Général",
+          "LBL_CONSIGNEE": "Destinataire",
+          "LBL_SHIPPER": "Expéditeur",
+          "LBL_HAWB": "HAWB",
+          "LBL_SERV": "Service",
+          "LBL_HBL": "HBL",
+          "LBL_ORIGIN": "Origine",
+          "LBL_DESTINATION": "Destination",
+          "LBL_DISCHRG": "Décharge",
+          "LBL_MAWB": "HBL",
+          "LBL_CONT": "No. du conteneur",
+          "LBL_CONT_COUNT": " Conteneurs",
+          "LBL_CARRIER": "Transporteur",
+          "LBL_VESSEL": "Navire",
+          "LBL_FLIGHT1": "Vol 1",
+          "LBL_FLIGHT2": "Vol 2",
+          "LBL_PCS": "Pièces",
+          "LBL_WEIGHT": "Poids",
+          "LBL_VOL": "Volume",
+          "LBL_WAREHOUSE": "Entrepôt",
+
+          "LBL_GEN_DESC": "Description Générale",
+          "LBL_COMMENTS": "Commentaires",
+          "LBL_ETA": "Heure est. d'arrivée",
+          "LBL_ETD": "Heure est. de départ",
+          "LBL_PO": "No. de la commande",
+          "LBL_STYLE": "No. de style",
+
+          "LBL_BILL": "No. Interne",
+          "LBL_LEG_MODE": "Mode",
+          "LBL_TRANSPORT_MODE": "Mode de Transport",
+          "LBL_CONTAINER_MODE": "Mode du Conteneur",
+          "LBL_ORDER_REF": "No de Réf.",
+          "LBL_CONTAINERS": "Conteneur(s)",
+          "LBL_GOODS_DESC": "Description",
+          "LBL_SIZE": "Dimension",
+          "LBL_QANTITY": "Quantité",
+          "LBL_MILESTONES": "BORNE ROUTIÈRE",
+          "LBL_ROUTING": "ITINÉRAIRE D'ACHEMINEMENT",
+          "LBL_LOAD_LOC": "Lieu du Chargement",
+          "LBL_DSCHRG_LOC": "Lieu de Rejet",
+          "LBL_PARENT_JOB": "Parent Job",
+          "LBL_STATUS": "Statut",
+          "TXT_NO_MILESTONES": "Actuellement, il n’y a pas de jalons concernant cet envoi.",
+          "LBL_CUBIC_METER": "m3",
+          "LBL_CUBIC_FOOT": "pi",
+          "LBL_CUBIC_INCH": "po",
+
+          "LBL_DESCRIPTION": "Mise à Jour de Statut",
+          "LBL_SCHED_DATE": "Date Fixe",
+          "LBL_ACTUAL_DATE": "Date Effective",
+
+          "DETAILS-TRACKING-BAR": {
+            "LBL_PU_TS": "Ramassé",
+            "LBL_DEL_TS": "Livré",
+            "LBL_DEPARTURE": "Départ",
+            "LBL_ARRIVAL": "Arrivée"
+          }
+        },
+        "DETAILS-DOCUMENT": {
+          "TXT_LOADING-MESSAGE": "Loading other documents... (FR)",
+          "TXT_AVAILABLE-DOCUMENT": "Documents PDF disponibles",
+          "TXT_CREATED-DATE": "Date de création",
+          "TXT_DOC_INV": "Facture",
+          "TXT_DOC_ECI": "Facture Électronique de Conformité",
+          "TXT_DOC_HBL": "No du Connaissement Interne",
+          "TXT_DOC_MBL": "Lettre de Transport Aérien (LTA) Principal / Connaissement Maritime Principal",
+          "TXT_DOC_PAL": "Préalerte",
+          "TXT_DOC_CIV": "Facture Commerciale",
+          "TXT_DOC_PKL": "Liste de colisage"
+        }
+      }
+    },
+    "MULTIPLE": {},
+    "OR": {
+      "OR-DETAILS": {
+        "TXT_LDS-NUMBER": "LDS#",
+        "TXT_PICK-UP-NUMBER": "no. de cueillette",
+        "TXT_SHIPMENT-STATUS-NUMBER": "État général",
+        "TXT_CARRIER-NAME": "Transporteur",
+        "LBL_TRACKING-TAB": "LOCALISATION",
+        "LBL_DOCUMENT-TAB": "DOCUMENT",
+        "LBL_CONTACT-US-TAB": "Contactez-nous",
+        "DETAILS-TRACKING": {
+          "TXT_PICK-UP": "CUEILLETTE",
+          "TXT_DELIVERY": "LIVRAISON",
+          "TXT_ATA": "ATA",
+          "TXT_ATD": "ATD",
+          "TXT_ATA-MOBILE": "ATA",
+          "TXT_ATD-MOBILE": "ATD",
+          "TXT_TOOLTIP-ETA": "Heure est. de départ",
+          "TXT_TOOLTIP-ETD": "Heure est. d'arrivée",
+          "TXT_TOOLTIP-ATA": "Heure eff. d'arrivée",
+          "TXT_TOOLTIP-ATD": "Heure eff. de départ",
+          "TXT_NO-TRACKING-INFO-MESSAGE": "Les informations de suivi pour cette tâche ne sont pas encore disponibles.",
+          "TXT_LAST-LOCATION-DISTANCE-MSG": "{{distance}} {{distanceUnit}}  away to reach the next {{taskName}} point (FR)"
+        },
+        "DETAILS-DOCUMENT": {
+          "TXT_LOADING-MESSAGE": "Loading available documents... (FR)",
+          "TXT_AVAILABLE-DOCUMENT": "Documents PDF disponibles",
+          "TXT_CUSTOMER-CONFIRMATION": "Confirmation du client",
+          "TXT_CREATED-DATE": "Date de création",
+          "SYN_DOC_Undefined": "Indéfini",
+          "SYN_DOC_Supplier Credit Note": "Note de crédit du fournisseur",
+          "SYN_DOC_Carrier Confirmation": "Confirmation du transporteur",
+          "SYN_DOC_Carrier Confirmation - Signed": "Confirmation du transporteur - signée",
+          "SYN_DOC_Supplier Invoice": "Facture du fournisseur",
+          "SYN_DOC_Bill of Lading": "Connaissement",
+          "SYN_DOC_Lumper Receipt": "Reçu du débardeur",
+          "SYN_DOC_Scale Ticket": "Billet de pesée",
+          "SYN_DOC_Proof of Delivery": "Preuve de livraison",
+          "SYN_DOC_Rate Quote Sheet": "Feuille de devis",
+          "SYN_DOC_Packing Slip": "Fiche d'emballage",
+          "SYN_DOC_Customs paperwork": "Documentation douanière",
+          "SYN_DOC_Meat Certificate": "Certificat de viande",
+          "SYN_DOC_T&E Forms": "T&E Forms",
+          "SYN_DOC_Market Receipt": "Reçu de marché",
+          "SYN_DOC_Unloading Sheet": "Feuille de déchargement",
+          "SYN_DOC_COM Check": "Vérification de la communication",
+          "SYN_DOC_Pallet Sheet": "Feuille de palette",
+          "SYN_DOC_Letter of carrier assignment": "Lettre d'affectation du transporteur",
+          "SYN_DOC_Accessorial Approvals": "Approbation des frais supplémentaires",
+          "SYN_DOC_Check Stub": "Talon de chèque",
+          "SYN_DOC_Load Sheet": "Feuille de chargement",
+          "SYN_DOC_Scanned": "Scanné",
+          "SYN_DOC_Proof of Delivery - Signed": "Preuve de livraison - signé",
+          "SYN_DOC_Customer Invoice": "Facture client",
+          "SYN_DOC_Customer Confirmation": "Confirmation du client",
+          "SYN_DOC_Customer Confirmation - Signed": "Confirmation du client - signée",
+          "SYN_DOC_Illegible Image": "Image illisible",
+          "SYN_DOC_Customer Credit Note": "Note de crédit client",
+          "SYN_DOC_Duplicate Supplier Invoice": "Facture du fournisseur dupliquée",
+          "SYN_DOC_Load Tender": "Licitation de fret",
+          "SYN_DOC_Notice of Intent to Claim": "Avis d'intention de réclamer",
+          "SYN_DOC_Pallet Receipt": "Réception de la palette",
+          "SYN_DOC_To Delete": "Supprimer",
+          "SYN_DOC_Waiver and Release": "Renonciation et libération",
+          "SYN_DOC_Waiver and Release - Signed": "Renonciation et libération - signée",
+          "SYN_DOC_Warehousing / Storage Receipt": "Reçu d'entreposage/stockage",
+          "SYN_DOC_Research Required": "Recherche requise",
+          "SYN_DOC_Customer Voucher": "Coupon du client",
+          "SYN_DOC_Shipping Instructions": "Instructions d'exportation",
+          "SYN_DOC_Container Slips": "Bordereau de conteneur",
+          "SYN_DOC_Pickup Request": "Demande de ramassage",
+          "SYN_DOC_Email - Internal": "Courriel interne",
+          "SYN_DOC_Email - External": "Courriel externe",
+          "SYN_DOC_Addendum": "Addendum",
+          "SYN_DOC_Customer Pro Forma - Misc Invoice": "Facture pro forma du client - facture diverse",
+          "SYN_DOC_Misc Paperwork": "Documentation diverse",
+          "SYN_DOC_Carrier Confirmation - Revised": "Confirmation du transporteur - révisée",
+          "SYN_DOC_Double Brokered Shipment": "Cargaison doublement négociée",
+          "SYN_DOC_Shipping Manifest": "Manifeste d'exportation",
+          "SYN_DOC_Custom Stamp": "Cachet personnalisé",
+          "SYN_DOC_Reconsignment Form": "Formulaire de réexpédition",
+          "SYN_DOC_Loading Sheet": "Feuille de chargement",
+          "SYN_DOC_Scanned - Invoiced or Cancelled": "Scanné - facturé ou annulé",
+          "SYN_DOC_Offloading Sheet": "Feuille de déchargement",
+          "SYN_DOC_Letter of Release": "Lettre de libération",
+          "SYN_DOC_Certificate of Analysis": "Certificat d'analyse",
+          "SYN_DOC_Claims Documents - Customer": "Documents de réclamations - client",
+          "SYN_DOC_Email - Customer": "Courriel - client",
+          "SYN_DOC_Purchase Order": "Ordre d'achat",
+          "SYN_DOC_Commercial Invoice": "Facture commerciale",
+          "SYN_DOC_Claims Documents - Carrier": "Documents de réclamation - transporteur",
+          "SYN_DOC_Stop Payment Form": "Formulaire d'arrêt de paiement",
+          "SYN_DOC_EDI Rejection": "Rejet de l'EDI",
+          "SYN_DOC_Carrier Agreement": "Contrat de transport",
+          "SYN_DOC_Cancelled Bond": "Caution en douane annulée",
+          "SYN_DOC_Carrier Confirmation (Outbound)": "Confirmation du transporteur (sortante)",
+          "SYN_DOC_Carrier Confirmation - Revised (Outbound)": "Confirmation du transporteur - revisée (sortante)",
+          "SYN_DOC_Carrier Confirmation - Cancelled (Outbound)": "Confirmation du transporteur - annulée (sortante)",
+          "SYN_DOC_Customer Confirmation (Outbound)": "Confirmation client (sortante)",
+          "SYN_DOC_Bill of Lading (Outbound)": "Connaissement (sortant)",
+          "SYN_DOC_Supplier Invoice - Invoiced or Cancelled": "Facture fournisseur - facturée ou annulée",
+          "SYN_DOC_Supplier Credit Note - Invoiced or Cancelled": "Note de crédit du fournisseur - facturée ou annulée",
+          "SYN_DOC_Notice of Claim (Outbound)": "Avis de réclamation (sortant)",
+          "SYN_DOC_Certificate of Insurance": "Certificat d'assurance",
+          "SYN_DOC_Stamped ACI": "IPEC Estampé"
+        }
+      }
+    },
+    "GRID_HDR_SHIP_ID": "No. de commande (LDS)",
+    "GRID_HDR_SHIP_ID_AO": "No. de dossier",
+    "GRID_HDR_CONTAINER": "Conteneur/HBL #",
+    "GRID_HDR_REF": "No. de référence client",
+    "GRID_HDR_SHIP_DATE": "Date d'expédition(ETD)",
+    "GRID_HDR_SHIP_DATE_OR": "Date d'expédition",
+    "GRID_HDR_SHIP_DATE_AO": "Heure d'expédition est.",
+    "GRID_HDR_DEL_DATE": "Date de livraison(ETA)",
+    "GRID_HDR_DEL_DATE_AO": "E.T.A.",
+    "GRID_HDR_DEL_DATE_OR": "Date de livraison",
+    "GRID_HDR_SHIP_ORIG": "Origine (premier)",
+    "GRID_HDR_SHIP_ORIG_AO": "Origine",
+    "GRID_HDR_SHIP_DEST": "Destination (finale)",
+    "GRID_HDR_SHIP_DEST_AO": "Destination",
+    "GRID_HDR_SHIP_LAST_LOC": "Lieu le plus récent",
+    "GRID_HDR_SHIP_STATUS": "État général",
+    "GRID_HDR_SHIP_WEB_UNIT": "Mode",
+    "GRID_HDR_LBL_TRACKING": "Suivi de fret",
+    "GRID_HDR_LBL_CONTACT": "Contacts",
+    "GRID_HDR_LBL_DOCS": "Documents",
+    "GRID_LOADING_MESSAGE": "Getting shipments. Please wait... (FR)",
+    "GRID_FLTR_ALL": "Tous"
+  },
+  "WAREHOUSE": {
+    "INVENTORY": {
+      "TITLE": "Inventory",
+      "TXT_LOADING_MESSAGE": "Getting inventory. Please wait... (FR)",
+      "TXT_GRID_HDR_WAREHOUSE": "Entrepôt",
+      "TXT_GRID_HDR_PROD_GRP": "Catégorie de Produits",
+      "TXT_GRID_HDR_PROD_CODE": "Code de Produits",
+      "TXT_GRID_HDR_DESC": "Description",
+      "TXT_GRID_HDR_PKG_UOM": "UDM du Colis",
+      "TXT_GRID_HDR_LP_COUNT": "Comptage des Palletes",
+      "TXT_GRID_HDR_TOTAL": "Total",
+      "TXT_GRID_HDR_AVAILABLE": "Disponible",
+      "TXT_GRID_HDR_SOFT_ALLOC": "Répartition",
+      "TXT_GRID_HDR_DMG": "Endommagé",
+      "TXT_GRID_HDR_DISC": "Interrompu",
+      "TXT_GRID_HDR_INACTIVE": "Inactif",
+      "TXT_GRID_HDR_HOLD_CUST": "En Attente Client",
+      "TXT_GRID_HDR_HOLD_WHS": "En Attente Entrepôt",
+      "TXT_GRID_HDR_HOLD_RET": "En Attente Retour",
+      "TXT_GRID_HDR_HOLD_QUAR": "En Attente Quarantaine",
+      "TXT_GRID_HDR_HOLD_TOTAL": "En Attente du Total",
+      "TXT_GRID_HDR_WEIGHT": "Poids",
+      "TXT_GRID_HDR_WEIGHT_UOM": "UDM",
+      "TXT_GRID_HDR_TIHI": "TiHi",
+      "TXT_GRID_HDR_ADDITIONAL_REQ": "Supplémentaire Demandé",
+      "TXT_GRID_HDR_PROJECTED_AVAIL": "Prévu Disponible",
+      "TXT_GRID_HDR_WHS_LOT": "Lot d’Entrepôt",
+      "TXT_GRID_HDR_CUSTOMER_LOT": "Customer Lot# (FR)",
+      "TXT_GRID_HDR_VEN_LOT": "Lot du Vendeur",
+      "TXT_GRID_HDR_ANNIV_DATE": "Date de Réception",
+      "TXT_GRID_HDR_EXP_DATE": "Date d’Expiration du Produit",
+      "TXT_GRID_HDR_PALLET": "ID de la Palette",
+      "TXT_MODAL_TITLE": "Détails de l’Inventaire",
+      "TXT_MODAL_LBL_LOTS": "Lots",
+      "TXT_MODAL_LBL_PALLETS": "Palettes dans le lot",
+      "TXT_MODAL_GRID_INFO": "*Sélectionner la rangée dans la grille ci-dessus pour afficher les détails de la palette"
+    },
+    "SHIPPING": {
+      "TITLE": "Shipping",
+      "TXT_LOADING_MESSAGE": "Getting shipping information. Please wait... (FR)",
+      "TXT_GRID_HDR_WAREHOUSE": "Entrepôt",
+      "TXT_GRID_HDR_CREATED_DATE": "Créé le",
+      "TXT_GRID_HDR_RDD_DATE": "Prévu",
+      "TXT_GRID_HDR_SHIP_DATE": "Date d'Expédition",
+      "TXT_GRID_HDR_WHS_REF": "No. de Réf. d'Entrepôt",
+      "TXT_GRID_HDR_PRO_TRACKING": "No. Du PRO / No. de Suivi",
+      "TXT_GRID_HDR_CUST_REF": "No. de Réf. du Client",
+      "TXT_GRID_HDR_CONSIGNEE": "Expédier à",
+      "TXT_GRID_HDR_CONSIGNEE_LOC": "Expédier vers Emplacement",
+      "TXT_GRID_HDR_CONSIGNEE_REF": "No. de Réf. du Consignataire",
+      "TXT_GRID_HDR_TRAILER": "No. de Remorque",
+      "TXT_GRID_HDR_CARRIER": "Transporteur",
+      "TXT_GRID_HDR_BOL": "No. du Connaissement",
+      "TXT_GRID_HDR_STATUS": "Statut",
+      "TXT_GRID_HDR_LP_COUNT": "Comptage des Palletes",
+      "TXT_GRID_HDR_PROD_QTY": "No. de Produits",
+      "TXT_GRID_HDR_TOTAL_UNITS": "Total des Unités",
+      "TXT_GRID_HDR_WEIGHT": "Poids (lbs)",
+      "TXT_MODAL_LBL_WHS_REF": "No. de Réf. d'Entrepôt"
+    },
+    "RECEIVING": {
+      "TXT_GRID_HDR_WAREHOUSE": "Entrepôt",
+      "TXT_LOADING_MESSAGE": "Getting receiving information. Please wait... (FR)",
+      "TXT_GRID_HDR_CREATED_DATE": "Créé le",
+      "TXT_GRID_HDR_RCV_DATE": "Date de Réception",
+      "TXT_GRID_HDR_EXPECTED_DATE": "Prévu",
+      "TXT_GRID_HDR_WHS_REF": "No. de Réf. d'Entrepôt",
+      "TXT_GRID_HDR_BOL": "No. de Connaissement",
+      "TXT_GRID_HDR_CUST_REF": "No. de Réf. du Client",
+      "TXT_GRID_HDR_CONSIGNEE_REF": "No. de Réf. du Consignataire",
+      "TXT_GRID_HDR_TRAILER": "No. de Remorque",
+      "TXT_GRID_HDR_SUPPLIER": "Fournisseur",
+      "TXT_GRID_HDR_CARRIER": "Transporteur",
+      "TXT_GRID_HDR_STATUS": "Statut",
+      "TXT_GRID_HDR_LP_COUNT": "Comptage des Palletes",
+      "TXT_GRID_HDR_PROD_QTY": "No. de Produits",
+      "TXT_GRID_HDR_TOTAL_UNITS": "Total des Unités",
+      "TXT_GRID_HDR_WEIGHT": "Poids (lb)"
+    },
+    "SHIPPING_RECEIVING_SHIPMENT_DETAILS": {
+      "TXT_GRID_HDR_PRODUCT_CODE": "Code produit",
+      "TXT_GRID_HDR_LOT_NUMBER": "Numéro de lot",
+      "TXT_GRID_HDR_PALLET_COUNT": "Nombre de palettes",
+      "TXT_GRID_HDR_TOTAL_UNIT": "Unités totales",
+      "TXT_GRID_HDR_PACKAGE_UNIT": "Unité d'emballage",
+      "TXT_GRID_HDR_GROSS_WEIGHT": "Poids brut (lb)"
+    },
+    "INVOICING": {
+      "WHS_INVOICING_TITLE": "Facturation",
+      "TXT_LOADING_MESSAGE": "Getting invoicing information. Please wait... (FR)",
+      "TXT_GRID_HDR_INVOICE": "No. De Facture",
+      "TXT_GRID_HDR_INV_DATE": "Date de Facture",
+      "TXT_GRID_HDR_DUE_DATE": "Date d'exigibilité",
+      "TXT_GRID_HDR_LOC_NAME": "Lieu / Emplacement",
+      "TXT_GRID_HDR_LOC_CITY": "Ville",
+      "TXT_GRID_HDR_REF": "Références",
+      "TXT_GRID_HDR_PAID": "Est Payé",
+      "TXT_GRID_HDR_FILTER_ALL": "Toute",
+      "TXT_GRID_HDR_FILTER_PAID": "Payé",
+      "TXT_GRID_HDR_FILTER_UNPAID": "Non Payé"
+    },
+    "SHARED": {
+      "TXT_GRID-HEADER": "Full Details (FR)",
+      "TXT_PRODUCT_CODE_RADIO_BTN": "Par Code de Produits",
+      "TXT_LOT_RADIO_BTN": "Par Lot",
+      "TXT_PALLET_RADIO_BTN": "Par Palette",
+      "TXT_SHIPPING_RADIO_BTN": "Shipping",
+      "TXT_RECEIVING_RADIO_BTN": "Expédition",
+      "TXT_INVOICING_RADIO_BTN": "Facturation",
+      "TXT_EXPORT_GRID_BTN": "Export Grid (FR)",
+      "TXT_FILTER_ALL": "Toute",
+      "TXT_PINNED_ROW_TOTAL": "Total",
+      "TXT_PINNED_ROW_TOTAL_PRODUCT": "Total Product (FR)",
+      "TXT_MORE-DETAILS-BTN": "More details (FR)"
+    }
+  },
+  "SHARED": {
+    "BASED-AG-GRID-ANGULAR": {
+      "TXT_FILTER-RESULT": "Filterd Result - {{filterCount}} of {{fullCount}} (FR)",
+      "TXT_FILTER-VALUE-DATE-RANGE": "From:{{fromDate}} To:{{toDate}} (FR)",
+      "TXT_FILTER-COLUMN": "Filter Column (FR)",
+      "TXT_FILTER-VALUE": "Filter Value (FR)",
+      "DATE-RANGE-PICKER-PLACEHOLDER": "Select Range (FR)",
+      "DATE-RANGE-PICKER": {
+        "TXT_CLEAR": "Supprimer le filtre",
+        "TXT_TODAY": "Aujourd'hui",
+        "TXT_YESTERDAY": "Hier",
+        "TXT_LAST7": "7 derniers jours",
+        "TXT_LAST30": "30 derniers jours",
+        "TXT_LAST_MONTH": "Mois dernier",
+        "TXT_THIS_MONTH": "Ce mois",
+        "TXT_CUSTOM_RANGE": "Gamme personnalisée"
+      },
+      "LBL_COMPANY-LIST": "Entreprise",
+      "TXT_INSTRUCTION-DOUBLE-CLICK-TO-SEE-DETAIL": "* Please double click on the row to see more details of the shipment (FR)",
+      "TXT_DISCLAIMER-HIGHLIGHTED-ROW": "* La ligne en surbrillance indique un envoi multi-pick et/ou multi-drop. <br/>&nbsp;&nbsp; Le texte en gras indique plusieurs livraisons/destinations.",
+      "TXT_INSTRUCTION-DOUBLE-CLICK-TO-SEE-PDF": "* Please double click on the row to see the document (FR)",
+      "LBL_SEARCH-BY-REF": "Search by any reference# (FR)",
+      "LBL_EXPORT-GRID": "Export Grid (FR)",
+      "TXT_GRID_HEADER_FULL_DETAILS": "Full Details (FR)",
+      "TXT_SEE-FULL-GRID-CHECKBOX": "See full grid (FR)"
+    },
+    "ERROR-HANDLER": {
+      "404": "Page non trouvée",
+      "500": "Internal Server Error (FR)",
+      "403": "Session expired or timeout (FR)",
+      "TXT_RELOGIN-SUGGESTION-MESSAGE1": "Please try to login again or refresh your page. (FR)",
+      "TXT_RELOGIN-SUGGESTION-MESSAGE2": "Please login again to continue using the portal. (FR)",
+      "TXT_PAGE-NOT-FOUND-MESSAGE": "We can't find the page you were looking for. Maybe it's a bad link or maybe it was mistyped. (FR)",
+      "TXT_SESSION-EXPIRED-MESSAGE": "There is another user login using same credential to login. (FR)",
+      "TXT_BACK-TO_HOME": "Back to Homepag (FR)e"
+    },
+    "PDF-VIEWER": {},
+    "TT-SPINNER": {},
+    "CARIER-RATE-DETAILS-RENDERER": {},
+    "CUSTOM-DATE-RANGE-PICKER-DELIVERY-RENDERER": {},
+    "CUSTOM-DATE-RANGE-PICKER-SHIPMENT-RENDERER": {},
+    "CUSTOM-LOADING-OVERLAY-RENDERER": {},
+    "FLOATING-DROPDOWN-RENDERER": {},
+    "FORM": {
+      "LBL_ERROR-CANNOT-BE-EMPTY": "Cannot be empty (FR)",
+      "LBL_ERROR-REQUIRED": "Required (FR)"
+    },
+    "PAGE-TITLES": {
+      "DEFAULT": "Services interactifs",
+      "HOME": "Accueil",
+      "TRACKING": "Localisation",
+      "WAREHOUSE": "Entrepôt",
+      "TRACK-PO": "Track Purchased Order (FR)",
+      "LTL": "LTL",
+      "LTL-BOOKING": "LTL | Réservez une expédition",
+      "LTL-QUOTING": "LTL | Devis Rapide",
+      "ERROR": "Erreur",
+      "PROFILE": "Profile",
+      "CONTACT-US": "Contactez-nous",
+      "FAQ": "QFP",
+      "WHAT-NEW": "What's new? (FR)",
+      "TERMS-AND-CONDITIONS": "Terms and Conditions (FR)",
+      "FEEDBACK": "Feedback (FR)"
+    },
+    "UNITS": {
+      "LBL_OR": "Routier",
+      "LBL_AO": "Air/Océan",
+      "LBL_AOA": "Air",
+      "LBL_AOO": "Océan",
+      "LBL_US": "National",
+      "LBL_PD": "Produits agricoles",
+      "LBL_IM": "Intermodal",
+      "LBL_TS": "Trade Show",
+      "LBL_MX": "Mexique",
+      "LBL_BT": "Vrac/Citerne",
+      "LBL_PF": "Portal Freight",
+      "LBL_EC": "E-COM",
+      "LBL_MC": "Mexique X-Border",
+      "LBL_AG": "Agent",
+      "LBL_WH": "Entrepôt",
+      "LBL_EX": "Expédié",
+      "LBL_DR": "Drayage (FR)"
+    }
+  }
+}

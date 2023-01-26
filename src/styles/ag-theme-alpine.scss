@@ -1,0 +1,279 @@
+@import "./variables";
+
+.ag-theme-alpine {
+  .ag-header-cell,
+  .ag-header-group-cell {
+    padding: 0 10px;
+  }
+  .ag-cell {
+    line-height: normal;
+    @media screen and (max-width: 576px) {
+      padding: 0 5px;
+    }
+  }
+
+  .ag-row-pinned {
+    font-family: $font-bold;
+    font-weight: bolder;
+    background-color: rgba($color: #000000, $alpha: 0.07);
+  }
+
+  .truck-pic {
+    display: block;
+    width: 70px;
+    background: center no-repeat url("../assets/images/tracking/grid/truck-sm-2.png");
+    span {
+      display: none;
+    }
+  }
+  .train-pic {
+    display: block;
+    width: 70px;
+    background: center no-repeat url("../assets/images/tracking/grid/train-intermodal.png");
+    span {
+      display: none;
+    }
+  }
+  .ship-pic {
+    display: block;
+    width: 70px;
+    background: center no-repeat url("../assets/images/tracking/grid/boat-3.png");
+    span {
+      display: none;
+    }
+  }
+  .plane-pic {
+    display: block;
+    width: 70px;
+    background: center no-repeat url("../assets/images/tracking/grid/plane-sm-2.png");
+    span {
+      display: none;
+    }
+  }
+  .agent-pic {
+    display: block;
+    width: 70px;
+    background: center no-repeat url("../assets/images/tracking/grid/boxes-sm-2.png");
+    span {
+      display: none;
+    }
+  }
+  .bulk-pic {
+    display: block;
+    width: 70px;
+    background: center no-repeat url("../assets/images/tracking/grid/bulk-2.png");
+    span {
+      display: none;
+    }
+  }
+  .produce-pic {
+    display: block;
+    width: 70px;
+    background: center no-repeat url("../assets/images/tracking/grid/produce-2.png");
+    span {
+      display: none;
+    }
+  }
+  .expedited-pic {
+    display: block;
+    width: 70px;
+    background: center no-repeat url("../assets/images/tracking/grid/truck-expedited-2.png");
+    span {
+      display: none;
+    }
+  }
+
+  .ag-cell.truck-pic {
+    .ag-cell-value {
+      display: none;
+    }
+    background-size: 35px;
+  }
+  .ag-cell.train-pic {
+    .ag-cell-value {
+      display: none;
+    }
+    background-size: 35px !important;
+  }
+  .ag-cell.ship-pic {
+    .ag-cell-value {
+      display: none;
+    }
+    background-size: 35px !important;
+  }
+  .ag-cell.plane-pic {
+    .ag-cell-value {
+      display: none;
+    }
+    background-size: 35px !important;
+  }
+  .ag-cell.agent-pic {
+    .ag-cell-value {
+      display: none;
+    }
+    background-size: 35px !important;
+  }
+  .ag-cell.bulk-pic {
+    .ag-cell-value {
+      display: none;
+    }
+    background-size: 35px !important;
+  }
+  .ag-cell.produce-pic {
+    .ag-cell-value {
+      display: none;
+    }
+    background-size: 35px !important;
+  }
+  .ag-cell.expedited-pic {
+    .ag-cell-value {
+      display: none;
+    }
+    background-size: 35px !important;
+  }
+
+  .ag-row .ag-cell {
+    // display: flex;
+    // justify-content: center; /* align horizontal */
+    // align-items: center;
+    // padding: 5px;
+    padding: 5px;
+    padding-top: 3px;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+
+    @media screen and (max-width: 1200px) {
+      padding: 5px 0;
+    }
+  }
+
+  .ag-group-value {
+    display: flex;
+    height: min(var(--ag-line-height, 40px), 40px);
+    align-items: center;
+  }
+
+  // grid pivot background color
+  .ag-ltr .ag-side-bar-right {
+    background-color: $primary-color-gunmetal;
+  }
+  // Cell align
+  .ag-ltr .ag-right-aligned-cell {
+    justify-content: end;
+  }
+
+  //input
+  .ag-theme-alpine input[class^="ag-"][type="text"]:focus {
+    box-shadow: 0 0 2px 0.1rem rgb(29 31 72 / 40%);
+  }
+
+  // grid pivot font color
+  .ag-side-button-button {
+    color: white !important;
+  }
+  // Grid menu tab
+  .ag-theme-alpine .ag-tab-selected {
+    border-bottom-color: $text-color-dark;
+  }
+  // grid header background color
+  .ag-header-row {
+    background-color: #545859;
+    border-bottom: 1px solid white;
+  }
+  // grid column drop
+  .ag-column-drop-horizontal {
+    height: 30px;
+  }
+  // grid font color
+  .ag-header-cell-text {
+    color: white;
+    font-size: 13px;
+    line-height: 13px;
+    white-space: pre-wrap;
+  }
+  // grid header icon color
+  .ag-header-cell-sorted-asc,
+  .ag-header-cell-sorted-desc {
+    .ag-header-icon {
+      color: black !important;
+      div,
+      span {
+        color: black !important;
+      }
+    }
+  }
+  .ag-header-icon {
+    color: white !important;
+    div,
+    span {
+      color: white !important;
+    }
+  }
+  .ag-floating-filter-full-body {
+    input {
+      font-size: 12px;
+    }
+  }
+
+  .ag-cell-value {
+    font-size: 13px;
+    white-space: break-spaces;
+    text-align: initial;
+    & > span {
+      // display: flex;
+      text-overflow: ellipsis !important;
+      overflow: hidden !important;
+      white-space: nowrap;
+    }
+  }
+  .ag-status-bar {
+    max-height: 25px;
+    line-height: 25px;
+    background-color: rgba($color: #000000, $alpha: 0.07);
+    @media screen and (max-width: 768px) {
+      .ag-status-name-value {
+        margin: 0;
+        padding: 0;
+      }
+      border-top: 1px solid;
+    }
+    .ag-status-bar-left,
+    .ag-status-bar-center,
+    .ag-status-bar-right {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .multiple-pickup-dropdown {
+    background-color: antiquewhite;
+  }
+
+  .ag-focus-managed[aria-sort="ascending"],
+  .ag-focus-managed[aria-sort="descending"] {
+    background-color: $primary-color-lightgray;
+    .ag-header-cell-menu-button,
+    .ag-header-cell-text,
+    .ag-header-icon {
+      color: black;
+    }
+  }
+}
+
+.ag-theme-alpine .ag-keyboard-focus .ag-header-cell:focus:after {
+  border-color: white !important;
+}
+
+.ag-theme-alpine .ag-ltr .ag-cell-range-single-cell,
+.ag-theme-alpine .ag-ltr .ag-cell-range-single-cell.ag-cell-range-handle,
+.ag-theme-alpine .ag-ltr .ag-context-menu-open .ag-cell-focus:not(.ag-cell-range-selected),
+.ag-theme-alpine .ag-ltr .ag-has-focus .ag-cell-focus:not(.ag-cell-range-selected),
+.ag-theme-alpine .ag-ltr .ag-has-focus .ag-full-width-row.ag-row-focus .ag-cell-wrapper.ag-row-group,
+.ag-theme-alpine .ag-rtl .ag-cell-range-single-cell,
+.ag-theme-alpine .ag-rtl .ag-cell-range-single-cell.ag-cell-range-handle,
+.ag-theme-alpine .ag-rtl .ag-context-menu-open .ag-cell-focus:not(.ag-cell-range-selected),
+.ag-theme-alpine .ag-rtl .ag-has-focus .ag-cell-focus:not(.ag-cell-range-selected),
+.ag-theme-alpine .ag-rtl .ag-has-focus .ag-full-width-row.ag-row-focus .ag-cell-wrapper.ag-row-group {
+  border-color: black !important;
+}

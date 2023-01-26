@@ -1,0 +1,157 @@
+@import "../../../../styles/variables";
+
+::ng-deep .base-grid {
+  .ag-theme-alpine {
+    @media screen and (max-width: 768px) {
+      height: 75vh !important;
+    }
+    .ag-row {
+      @media screen and (max-width: 1200px) {
+        border-bottom-color: rgba(0, 0, 0, 0.3);
+      }
+    }
+    .row {
+      @media screen and (max-width: 1200px) {
+        margin: 0;
+        width: calc(100vw - 35px);
+      }
+    }
+  }
+
+  .base-grid__grid {
+    position: relative;
+  }
+
+  // Desktop grid
+  .ag-theme-alpine.desktop {
+    @media screen and (max-width: 1200px) {
+      visibility: hidden;
+      height: 0 !important;
+    }
+    .ag-cell.order-number {
+      display: grid;
+    }
+  }
+  .ag-theme-alpine.desktop.visible {
+    visibility: visible;
+    height: 80vh !important;
+    @media screen and (max-width: 768px) {
+      height: 75vh !important;
+    }
+    &.byProductCodeColState,
+    &.invoicingColState,
+    &.shippingColState,
+    &.receivingColState {
+      height: 79vh !important;
+    }
+    &.byLotColState,
+    &.byPalletColState,
+    &.multipleShipmentTypeColumnState,
+    &.overTheRoadColumnState,
+    &.cargowiseColumnState {
+      height: 81vh !important;
+    }
+  }
+
+  // Mobile grid
+  .ag-theme-alpine.mobile {
+    visibility: hidden;
+    height: 0 !important;
+  }
+  .ag-theme-alpine.mobile.visible {
+    @media screen and (max-width: 1200px) {
+      visibility: visible;
+    }
+    // margin-top: 10px;
+    height: 77vh !important;
+
+    &.multipleShipmentTypeColumnState,
+    &.overTheRoadColumnState,
+    &.cargowiseColumnState {
+      height: 77vh !important;
+    }
+
+    &.byProductCodeColState,
+    &.shippingColState,
+    &.receivingColState,
+    &.invoicingColState {
+      height: 79vh !important;
+    }
+    &.byLotColState,
+    &.byPalletColState {
+      height: 82vh !important;
+    }
+
+    .ag-cell-value {
+      white-space: initial;
+    }
+    .label-value > div:first-child,
+    .label-value > span:first-child {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      display: block;
+      margin-right: 10px;
+    }
+    .label-value > div:last-child,
+    .label-value > span:last-child {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      display: block;
+      text-align: start;
+    }
+  }
+
+  .base-grid__mobile-note {
+    display: none;
+    text-align: start;
+    @media screen and (max-width: 1200px) and (min-width: 768px) {
+      display: block;
+      margin-bottom: 5px !important;
+      text-align: end;
+      padding-right: 5px;
+      .mat-checkbox-label {
+        color: $primary-color-darkblue;
+        font-family: $font-bold;
+        font-size: 15px;
+      }
+      label {
+        margin-bottom: 0;
+      }
+      .mat-radio-group {
+        margin-left: 10px;
+        display: inline-block;
+      }
+    }
+  }
+
+  // For shipment grid
+  .shipment-summary {
+    .value.multiple {
+      font-weight: bolder;
+      color: $primary-color-darkblue;
+    }
+    @media screen and (max-width: 576px) {
+      .row {
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+::ng-deep {
+  .tracking__header {
+    padding: 10px 10px 0 10px;
+    margin: 0 !important;
+  }
+  .flatpickr-calendar .flatpickr-predefined-ranges {
+    li {
+      width: max-content;
+    }
+    & > li:first-child button {
+      font-weight: bold;
+      color: #cc3300 !important;
+    }
+  }
+}
